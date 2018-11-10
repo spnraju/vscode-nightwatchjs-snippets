@@ -13,3 +13,4 @@ test-data/**
 coverage/**
 LICENSE
 CHANGELOG.md
+*.vsix

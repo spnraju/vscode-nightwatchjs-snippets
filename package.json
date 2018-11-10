@@ -1,14 +1,20 @@
 {
   "name": "vscode-nightwatchjs-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NightwatchJS code snippets for Visual Studio Code",
   "displayName": "NightwatchJS snippets for VS Code",
   "publisher": "Raju",
+  "keywords": [
+    "nightwatchjs",
+    "nightwatch",
+    "vscode",
+    "vscodeSnippets"
+  ],
   "engines": {
     "vscode": "^0.10.x"
   },
   "galleryBanner": {
-    "color": "#F0F0FF",
+    "color": "#000066",
     "theme": "dark"
   },
   "repository": {
@@ -35,7 +41,7 @@
       }
     ]
   },
-  "dependencies": {
+  "devDependencies": {
     "vsce": "^1.53.0"
   }
 }
