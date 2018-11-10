@@ -1,2 +1,2 @@
 # vscode-nightwatchjs-snippets
-NightwatchJS code snippets for Visaual Studio Code
+NightwatchJS code snippets for Visual Studio Code

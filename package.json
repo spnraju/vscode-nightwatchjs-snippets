@@ -1,0 +1,36 @@
+{
+  "name": "vscode-nightwatchjs-snippets",
+  "version": "0.1.0",
+  "description": "NightwatchJS code snippets for Visual Studio Code",
+  "displayName": "NightwatchJS snippets for VS Code",
+  "publisher": "Raju",
+  "engines": {
+    "vscode": "^0.10.x"
+  },
+  "galleryBanner": {
+    "color": "#F0F0FF",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spnraju/vscode-nightwatchjs-snippets.git"
+  },
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "Raju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spnraju/vscode-nightwatchjs-snippets/issues"
+  },
+  "homepage": "https://github.com/spnraju/vscode-nightwatchjs-snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/nightwatchsnippets.json"
+      },
+    }
