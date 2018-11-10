@@ -32,5 +32,10 @@
       {
         "language": "javascript",
         "path": "./snippets/nightwatchsnippets.json"
-      },
-    }
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^1.53.0"
+  }
+}
