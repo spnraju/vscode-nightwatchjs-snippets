@@ -4,6 +4,8 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/Raju.vscode-nightwatchjs-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/Raju.vscode-nightwatchjs-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 
+Please type "nw" first and it will list down all the commands
+
 ## The below commands are supported in this version
 
 * **attributeContains**(selector, attribute, expected, optionalMessage)
@@ -22,12 +24,10 @@
 * **value**(expected, optionalMessage)
 * **valueContains**(selector, expected, optionalMessage)
 * **visible**(selector, optionalMessage)
-
 * **waitForElementNotPresent**(selector, time)
 * **waitForElementNotVisible**(selector, time)
 * **waitForElementPresent**(selector, time)
 * **waitForElementVisible**(selector, time)
-
 * **click**(selector, optionalCallback)
 * **clearValue**(selector, optionalCallback)
 * **getAttribute**(selector, attribute, callback)
@@ -42,7 +42,6 @@
 * **moveToElement**(selector, xoffset, yoffset, optionalCallback)
 * **setValue**(selector, inputValue, optionalCallback)
 * **submitForm**(selector, optionalCallback)
-
 * **end**(optionalCallback)
 * **pause**(1000ms, optionalCallback)
 * **perform**(optionalCallback)
