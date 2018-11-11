@@ -1,3 +1,7 @@
+## [0.2.0] - 11-11-2018 (DD-MM-YYYY)
+### Update
+- add client commands and assertions
+
 ## [0.1.1] - 10-11-2018 (DD-MM-YYYY)
 ### Update
 - fix package.json with keywords
