@@ -1,117 +1,287 @@
 {
-    "end": {
-        "prefix": "end",
-        "body": "end(${0:optionalCallback})",
-        "description": "end"
-      },
-      "pause": {
-        "prefix": "pau",
-        "body": "pause(${0:1000ms}, ${1:optionalCallback})",
-        "description": "pause"
-      },
-      "perform": {
-        "prefix": "per",
-        "body": "perform(${0:optionalCallback})",
-        "description": "perform"
-      },
-      "useCss": {
-        "prefix": "use",
-        "body": "useCss(${0:optionalCallback})",
-        "description": "useCss"
-      },
-      "useXpath": {
-        "prefix": "use",
-        "body": "useXpath(${0:optionalCallback})",
-        "description": "useXpath"
-      },
-      "switchWindow": {
-        "prefix": "swi",
-        "body": "switchWindow(${0:handleOrName}, ${1:optionalCallback})",
-        "description": "switchWindow"
-      },
-      "resizeWindow": {
-        "prefix": "res",
-        "body": "resizeWindow(${0:width}, ${1:height}, ${2:optionalCallback})",
-        "description": "resizeWindow"
-      },
-      "setWindowPosition": {
-        "prefix": "set",
-        "body": "setWindowPosition(${0:offsetX}, ${1:offsetY}, ${2:optionalCallback})",
-        "description": "setWindowPosition"
-      },
-      "maximizeWindow": {
-        "prefix": "max",
-        "body": "maximizeWindow(${0:optionalCallback})",
-        "description": "maximizeWindow"
-      },
-      "saveScreenshot": {
-        "prefix": "save",
-        "body": "saveScreenshot(${0:fileName}, ${1:optionalCallback})",
-        "description": "saveScreenshot"
-      },
-      "getTitle": {
-        "prefix": "get",
-        "body": "getTitle(${0:callback})",
-        "description": "getTitle"
-      },
-      "closeWindow": {
-        "prefix": "clo",
-        "body": "closeWindow(${0:optionalCallback})",
-        "description": "closeWindow"
-      },
-      "init": {
-        "prefix": "in",
-        "body": "init(${0:URL}, ${1:optionalCallback})",
-        "description": "init"
-      },
-      "urlHash": {
-        "prefix": "url",
-        "body": "urlHash(${0:hash}, ${1:optionalCallback})",
-        "description": "urlHash"
-      },
-      "getCookies": {
-        "prefix": "get",
-        "body": "getCookies(${0:callback})",
-        "description": "getCookies"
-      },
-      "getCookie": {
-        "prefix": "get",
-        "body": "getCookie(${0:cookieName}, ${1:callback})",
-        "description": "getCookie"
-      },
-      "setCookie": {
-        "prefix": "set",
-        "body": "setCookie(${0:cookieObject}, ${1:optionalCallback})",
-        "description": "setCookie"
-      },
-      "deleteCookie": {
-        "prefix": "del",
-        "body": "deleteCookie(${0:cookieName}, ${1:callback})",
-        "description": "deleteCookie"
-      },
-      "deleteCookies": {
-        "prefix": "del",
-        "body": "deleteCookies(${0:optionalCallback})",
-        "description": "deleteCookies"
-      },
-      "injectScript": {
-        "prefix": "inj",
-        "body": "injectScript(${0:scriptUrl}, ${1:id}, ${2:optionalCallback})",
-        "description": "injectScript"
-      },
-      "getLogTypes": {
-        "prefix": "get",
-        "body": "getLogTypes(${0:callback})",
-        "description": "getLogTypes"
-      },
-      "getLog": {
-        "prefix": "get",
-        "body": "getLog(${0:typeString}, ${1:callback})",
-        "description": "getLog"
-      },
-      "isLogAvailable": {
-        "prefix": "is",
-        "body": "isLogAvailable(${0:typeString}, ${1:callback})",
-        "description": "isLogAvailable"
-      }
+  "end": {
+    "prefix": "end",
+    "body": "end(${0:optionalCallback})",
+    "description": "end(optionalCallback)"
+  },
+  "pause": {
+    "prefix": "pause",
+    "body": "pause(${0:1000ms}, ${1:optionalCallback})",
+    "description": "pause(timems, optionalCallback)"
+  },
+  "perform": {
+    "prefix": "per",
+    "body": "perform(${0:optionalCallback})",
+    "description": "perform(optionalCallback)"
+  },
+  "useCss": {
+    "prefix": "usec",
+    "body": "useCss(${0:optionalCallback})",
+    "description": "useCss(optionalCallback"
+  },
+  "useXpath": {
+    "prefix": "usex",
+    "body": "useXpath(${0:optionalCallback})",
+    "description": "useXpath(optionalCallback)"
+  },
+  "switchWindow": {
+    "prefix": "swiw",
+    "body": "switchWindow(${0:handleOrName}, ${1:optionalCallback})",
+    "description": "switchWindow(handleOrName, optionalCallback)"
+  },
+  "resizeWindow": {
+    "prefix": "resw",
+    "body": "resizeWindow(${0:width}, ${1:height}, ${2:optionalCallback})",
+    "description": "resizeWindow(width, height, optionalCallback)"
+  },
+  "setWindowPosition": {
+    "prefix": "setw",
+    "body": "setWindowPosition(${0:offsetX}, ${1:offsetY}, ${2:optionalCallback})",
+    "description": "setWindowPosition(offsetX, offsetY, optionalCallback)"
+  },
+  "maximizeWindow": {
+    "prefix": "maxw",
+    "body": "maximizeWindow(${0:optionalCallback})",
+    "description": "maximizeWindow(optionalCallback)"
+  },
+  "saveScreenshot": {
+    "prefix": "saves",
+    "body": "saveScreenshot(${0:fileName}, ${1:optionalCallback})",
+    "description": "saveScreenshot(fileName, optionalCallback)"
+  },
+  "getTitle": {
+    "prefix": "gett",
+    "body": "getTitle(${0:callback})",
+    "description": "getTitle(callback)"
+  },
+  "closeWindow": {
+    "prefix": "clow",
+    "body": "closeWindow(${0:optionalCallback})",
+    "description": "closeWindow(optionalCallback)"
+  },
+  "init": {
+    "prefix": "in",
+    "body": "init(${0:URL}, ${1:optionalCallback})",
+    "description": "init(URL, optionalCallback)"
+  },
+  "urlHash": {
+    "prefix": "urlh",
+    "body": "urlHash(${0:hash}, ${1:optionalCallback})",
+    "description": "urlHash(hash, optionalCallback)"
+  },
+  "getCookies": {
+    "prefix": "getcs",
+    "body": "getCookies(${0:callback})",
+    "description": "getCookies(callback)"
+  },
+  "getCookie": {
+    "prefix": "getc",
+    "body": "getCookie(${0:cookieName}, ${1:callback})",
+    "description": "getCookie(cookieName, callback)"
+  },
+  "setCookie": {
+    "prefix": "setc",
+    "body": "setCookie(${0:cookieObject}, ${1:optionalCallback})",
+    "description": "setCookie(cookieObject, optionalCallback)"
+  },
+  "deleteCookie": {
+    "prefix": "delc",
+    "body": "deleteCookie(${0:cookieName}, ${1:callback})",
+    "description": "deleteCookie(cookieName, callback)"
+  },
+  "deleteCookies": {
+    "prefix": "delcs",
+    "body": "deleteCookies(${0:optionalCallback})",
+    "description": "deleteCookies(optionalCallback)"
+  },
+  "injectScript": {
+    "prefix": "injs",
+    "body": "injectScript(${0:scriptUrl}, ${1:id}, ${2:optionalCallback})",
+    "description": "injectScript(scriptUrl, id, optionalCallback)"
+  },
+  "getLogTypes": {
+    "prefix": "getlt",
+    "body": "getLogTypes(${0:callback})",
+    "description": "getLogTypes(callback)"
+  },
+  "getLog": {
+    "prefix": "getl",
+    "body": "getLog(${0:typeString}, ${1:callback})",
+    "description": "getLog(typeString, callback)"
+  },
+  "isLogAvailable": {
+    "prefix": "isla",
+    "body": "isLogAvailable(${0:typeString}, ${1:callback})",
+    "description": "isLogAvailable(typeString, callback)"
+  },
+  "click": {
+    "prefix": "cli",
+    "body": "click(${0:selector}, ${1:optionalCallback})",
+    "description": "click(selector, optionalCallback)"
+  },
+  "clearValue": {
+    "prefix": "clev",
+    "body": "clearValue(${0:selector}, ${1:optionalCallback})",
+    "description": "clearValue(selector, optionalCallback)"
+  },
+  "getAttribute": {
+    "prefix": "geta",
+    "body": "getAttribute(${0:selector}, ${1:attribute}, ${2:callback})",
+    "description": "getAttribute(selector, attribute, callback)"
+  },
+  "getCssProperty": {
+    "prefix": "getcp",
+    "body": "getCssProperty(${0:selector}, ${1:cssProperty}, ${2:callback})",
+    "description": "getCssProperty(selector, cssProperty, callback)"
+  },
+  "getElementSize": {
+    "prefix": "getes",
+    "body": "getElementSize(${0:selector}, ${1:callback})",
+    "description": "getElementSize(selector, callback)"
+  },
+  "getLocation": {
+    "prefix": "getl",
+    "body": "getLocation(${0:selector}, ${1:callback})",
+    "description": "getLocation(selector, callback)"
+  },
+  "getLocationInView": {
+    "prefix": "getlv",
+    "body": "getLocationInView(${0:selector}, ${1:callback})",
+    "description": "getLocationInView(selector, callback)"
+  },
+  "getTagName": {
+    "prefix": "getta",
+    "body": "getTagName(${0:selector}, ${1:callback})",
+    "description": "getTagName(selector, callback)"
+  },
+  "getText": {
+    "prefix": "gett",
+    "body": "getText(${0:selector}, ${1:callback})",
+    "description": "getText(selector, callback)"
+  },
+  "getValue": {
+    "prefix": "getv",
+    "body": "getValue(${0:selector}, ${1:callback})",
+    "description": "getValue(selector, callback)"
+  },
+  "isVisible": {
+    "prefix": "isv",
+    "body": "isVisible(${0:selector}, ${1:callback})",
+    "description": "isVisible(selector, callback)"
+  },
+  "moveToElement": {
+    "prefix": "movte",
+    "body": "moveToElement(${0:selector}, ${1:xoffset}, ${2:yoffset}, ${3:optionalCallback})",
+    "description": "moveToElement(selector, xoffset, yoffset, optionalCallback)"
+  },
+  "setValue": {
+    "prefix": "setv",
+    "body": "setValue(${0:selector}, ${1:inputValue}, ${2:optionalCallback})",
+    "description": "setValue(selector, inputValue, optionalCallback)"
+  },
+  "submitForm": {
+    "prefix": "subf",
+    "body": "submitForm(${0:selector}, ${1:optionalCallback})",
+    "description": "submitForm(selector, optionalCallback)"
+  },
+  "attributeContains": {
+    "prefix": "attc",
+    "body": "attributeContains(${0:selector}, ${1:attribute}, ${2:expected}, ${3:optionalMessage})",
+    "description": "attributeContains(selector, attribute, expected, optionalMessage)"
+  },
+  "attributeEquals": {
+    "prefix": "atte",
+    "body": "attributeEquals(${0:selector}, ${1:attribute}, ${2:expected}, ${3:optionalMessage})",
+    "description": "attributeEquals(selector, attribute, expected, optionalMessage)"
+  },
+  "containsText": {
+    "prefix": "contt",
+    "body": "containsText(${0:selector}, ${1:expectedText}, ${2:optionalMessage})",
+    "description": "containsText(selector, expectedText, optionalMessage)"
+  },
+  "cssClassNotPresent": {
+    "prefix": "csscnp",
+    "body": "cssClassNotPresent(${0:selector}, ${1:className}, ${2:optionalMessage})",
+    "description": "cssClassNotPresent(selector, className, optionalMessage)"
+  },
+  "cssClassPresent": {
+    "prefix": "csscp",
+    "body": "cssClassPresent(${0:selector}, ${1:className}, ${2:optionalMessage})",
+    "description": "cssClassPresent(selector, className, optionalMessage)"
+  },
+  "cssProperty": {
+    "prefix": "cssp",
+    "body": "cssProperty(${0:selector}, ${1:cssProperty}, ${2:expected}, ${3:optionalMessage})",
+    "description": "cssProperty(selector, cssProperty, expected, optionalMessage)"
+  },
+  "elementNotPresent": {
+    "prefix": "elemnp",
+    "body": "elementNotPresent(${0:selector}, ${1:optionalMessage})",
+    "description": "elementNotPresent(selector, optionalMessage)"
+  },
+  "elementPresent": {
+    "prefix": "elemp",
+    "body": "elementPresent(${0:selector}, ${1:optionalMessage})",
+    "description": "elementPresent(selector, optionalMessage)"
+  },
+  "hidden": {
+    "prefix": "hid",
+    "body": "hidden(${0:selector}, ${1:optionalMessage})",
+    "description": "hidden(selector, optionalMessage)"
+  },
+  "title": {
+    "prefix": "titl",
+    "body": "title(${0:expected}, ${1:optionalMessage})",
+    "description": "title(expected, optionalMessage)"
+  },
+  "titleContains": {
+    "prefix": "titlec",
+    "body": "titleContains(${0:expected}, ${1:optionalMessage})",
+    "description": "titleContains(expected, optionalMessage)"
+  },
+  "urlContains": {
+    "prefix": "urlc",
+    "body": "urlContains(${0:expected}, ${1:optionalMessage})",
+    "description": "urlContains(expected, optionalMessage)"
+  },
+  "urlEquals": {
+    "prefix": "urle",
+    "body": "urlEquals(${0:expected}, ${1:optionalMessage})",
+    "description": "urlEquals(expected, optionalMessage)"
+  },
+  "value": {
+    "prefix": "val",
+    "body": "value(${0:expected}, ${1:optionalMessage})",
+    "description": "value(expected, optionalMessage)"
+  },
+  "valueContains": {
+    "prefix": "valueco",
+    "body": "valueContains(${0:selector}, ${1:expected}, ${2:optionalMessage})",
+    "description": "valueContains(selector, expected, optionalMessage)"
+  },
+  "visible": {
+    "prefix": "visi",
+    "body": "visible(${0:selector}, ${1:optionalMessage})",
+    "description": "visible(selector, optionalMessage)"
+  },
+  "waitForElementNotPresent": {
+    "prefix": "waitenp",
+    "body": "waitForElementNotPresent(${0:selector}, ${1:time})",
+    "description": "waitForElementNotPresent(selector, time)"
+  },
+  "waitForElementNotVisible": {
+    "prefix": "waitenv",
+    "body": "waitForElementNotVisible(${0:selector}, ${1:time})",
+    "description": "waitForElementNotVisible(selector, time)"
+  },
+  "waitForElementPresent": {
+    "prefix": "waitep",
+    "body": "waitForElementPresent(${0:selector}, ${1:time})",
+    "description": "waitForElementPresent(selector, time)"
+  },
+"waitForElementVisible": {
+    "prefix": "waitev",
+    "body": "waitForElementVisible(${0:selector}, ${1:time})",
+    "description": "waitForElementVisible(selector, time)"
+  }
 }
