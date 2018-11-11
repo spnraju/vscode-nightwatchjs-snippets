@@ -1,14 +1,117 @@
 {
-    "clickWithCallback": {
-        "prefix": "ckc",
-        "body": "click(${1:selector}, ${2:callback})$3",
-        "description": "click(selector,callback)"
+    "end": {
+        "prefix": "end",
+        "body": "end(${0:optionalCallback})",
+        "description": "end"
       },
-
-      "click": {
-        "prefix": "ck",
-        "body": "click(${1:selector})$2",
-        "description": "click(selector)"
+      "pause": {
+        "prefix": "pau",
+        "body": "pause(${0:1000ms}, ${1:optionalCallback})",
+        "description": "pause"
+      },
+      "perform": {
+        "prefix": "per",
+        "body": "perform(${0:optionalCallback})",
+        "description": "perform"
+      },
+      "useCss": {
+        "prefix": "use",
+        "body": "useCss(${0:optionalCallback})",
+        "description": "useCss"
+      },
+      "useXpath": {
+        "prefix": "use",
+        "body": "useXpath(${0:optionalCallback})",
+        "description": "useXpath"
+      },
+      "switchWindow": {
+        "prefix": "swi",
+        "body": "switchWindow(${0:handleOrName}, ${1:optionalCallback})",
+        "description": "switchWindow"
+      },
+      "resizeWindow": {
+        "prefix": "res",
+        "body": "resizeWindow(${0:width}, ${1:height}, ${2:optionalCallback})",
+        "description": "resizeWindow"
+      },
+      "setWindowPosition": {
+        "prefix": "set",
+        "body": "setWindowPosition(${0:offsetX}, ${1:offsetY}, ${2:optionalCallback})",
+        "description": "setWindowPosition"
+      },
+      "maximizeWindow": {
+        "prefix": "max",
+        "body": "maximizeWindow(${0:optionalCallback})",
+        "description": "maximizeWindow"
+      },
+      "saveScreenshot": {
+        "prefix": "save",
+        "body": "saveScreenshot(${0:fileName}, ${1:optionalCallback})",
+        "description": "saveScreenshot"
+      },
+      "getTitle": {
+        "prefix": "get",
+        "body": "getTitle(${0:callback})",
+        "description": "getTitle"
+      },
+      "closeWindow": {
+        "prefix": "clo",
+        "body": "closeWindow(${0:optionalCallback})",
+        "description": "closeWindow"
+      },
+      "init": {
+        "prefix": "in",
+        "body": "init(${0:URL}, ${1:optionalCallback})",
+        "description": "init"
+      },
+      "urlHash": {
+        "prefix": "url",
+        "body": "urlHash(${0:hash}, ${1:optionalCallback})",
+        "description": "urlHash"
+      },
+      "getCookies": {
+        "prefix": "get",
+        "body": "getCookies(${0:callback})",
+        "description": "getCookies"
+      },
+      "getCookie": {
+        "prefix": "get",
+        "body": "getCookie(${0:cookieName}, ${1:callback})",
+        "description": "getCookie"
+      },
+      "setCookie": {
+        "prefix": "set",
+        "body": "setCookie(${0:cookieObject}, ${1:optionalCallback})",
+        "description": "setCookie"
+      },
+      "deleteCookie": {
+        "prefix": "del",
+        "body": "deleteCookie(${0:cookieName}, ${1:callback})",
+        "description": "deleteCookie"
+      },
+      "deleteCookies": {
+        "prefix": "del",
+        "body": "deleteCookies(${0:optionalCallback})",
+        "description": "deleteCookies"
+      },
+      "injectScript": {
+        "prefix": "inj",
+        "body": "injectScript(${0:scriptUrl}, ${1:id}, ${2:optionalCallback})",
+        "description": "injectScript"
+      },
+      "getLogTypes": {
+        "prefix": "get",
+        "body": "getLogTypes(${0:callback})",
+        "description": "getLogTypes"
+      },
+      "getLog": {
+        "prefix": "get",
+        "body": "getLog(${0:typeString}, ${1:callback})",
+        "description": "getLog"
+      },
+      "isLogAvailable": {
+        "prefix": "is",
+        "body": "isLogAvailable(${0:typeString}, ${1:callback})",
+        "description": "isLogAvailable"
       }
-
 }
