@@ -1,287 +1,287 @@
 {
   "end": {
     "prefix": "nwend",
-    "body": "end(${0:optionalCallback})",
+    "body": "end(${1:optionalCallback})",
     "description": "end(optionalCallback)"
   },
   "pause": {
     "prefix": "nwpause",
-    "body": "pause(${0:1000ms}, ${1:optionalCallback})",
+    "body": "pause(${1:2111ms}, ${2:optionalCallback})",
     "description": "pause(timems, optionalCallback)"
   },
   "perform": {
     "prefix": "nwperform",
-    "body": "perform(${0:optionalCallback})",
+    "body": "perform(${1:optionalCallback})",
     "description": "perform(optionalCallback)"
   },
   "useCss": {
     "prefix": "nwuseCss",
-    "body": "useCss(${0:optionalCallback})",
+    "body": "useCss(${1:optionalCallback})",
     "description": "useCss(optionalCallback"
   },
   "useXpath": {
     "prefix": "nwuseXpath",
-    "body": "useXpath(${0:optionalCallback})",
+    "body": "useXpath(${1:optionalCallback})",
     "description": "useXpath(optionalCallback)"
   },
   "switchWindow": {
     "prefix": "nwswitchWindow",
-    "body": "switchWindow(${0:handleOrName}, ${1:optionalCallback})",
+    "body": "switchWindow(${1:handleOrName}, ${2:optionalCallback})",
     "description": "switchWindow(handleOrName, optionalCallback)"
   },
   "resizeWindow": {
     "prefix": "nwresizeWindow",
-    "body": "resizeWindow(${0:width}, ${1:height}, ${2:optionalCallback})",
+    "body": "resizeWindow(${1:width}, ${2:height}, ${3:optionalCallback})",
     "description": "resizeWindow(width, height, optionalCallback)"
   },
   "setWindowPosition": {
     "prefix": "nwsetWindowPosition",
-    "body": "setWindowPosition(${0:offsetX}, ${1:offsetY}, ${2:optionalCallback})",
+    "body": "setWindowPosition(${1:offsetX}, ${2:offsetY}, ${3:optionalCallback})",
     "description": "setWindowPosition(offsetX, offsetY, optionalCallback)"
   },
   "maximizeWindow": {
     "prefix": "nwmaximizeWindow",
-    "body": "maximizeWindow(${0:optionalCallback})",
+    "body": "maximizeWindow(${1:optionalCallback})",
     "description": "maximizeWindow(optionalCallback)"
   },
   "saveScreenshot": {
     "prefix": "nwsaveScreenshot",
-    "body": "saveScreenshot(${0:fileName}, ${1:optionalCallback})",
+    "body": "saveScreenshot(${1:fileName}, ${2:optionalCallback})",
     "description": "saveScreenshot(fileName, optionalCallback)"
   },
   "getTitle": {
     "prefix": "nwgetTitle",
-    "body": "getTitle(${0:callback})",
+    "body": "getTitle(${1:callback})",
     "description": "getTitle(callback)"
   },
   "closeWindow": {
     "prefix": "nwcloseWindow",
-    "body": "closeWindow(${0:optionalCallback})",
+    "body": "closeWindow(${1:optionalCallback})",
     "description": "closeWindow(optionalCallback)"
   },
   "init": {
     "prefix": "nwinit",
-    "body": "init(${0:URL}, ${1:optionalCallback})",
+    "body": "init(${1:URL}, ${2:optionalCallback})",
     "description": "init(URL, optionalCallback)"
   },
   "urlHash": {
     "prefix": "nwurlHash",
-    "body": "urlHash(${0:hash}, ${1:optionalCallback})",
+    "body": "urlHash(${1:hash}, ${2:optionalCallback})",
     "description": "urlHash(hash, optionalCallback)"
   },
   "getCookies": {
     "prefix": "nwgetCookies",
-    "body": "getCookies(${0:callback})",
+    "body": "getCookies(${1:callback})",
     "description": "getCookies(callback)"
   },
   "getCookie": {
     "prefix": "nwgetCookie",
-    "body": "getCookie(${0:cookieName}, ${1:callback})",
+    "body": "getCookie(${1:cookieName}, ${2:callback})",
     "description": "getCookie(cookieName, callback)"
   },
   "setCookie": {
     "prefix": "nwsetCookie",
-    "body": "setCookie(${0:cookieObject}, ${1:optionalCallback})",
+    "body": "setCookie(${1:cookieObject}, ${2:optionalCallback})",
     "description": "setCookie(cookieObject, optionalCallback)"
   },
   "deleteCookie": {
     "prefix": "nwdeleteCookie",
-    "body": "deleteCookie(${0:cookieName}, ${1:callback})",
+    "body": "deleteCookie(${1:cookieName}, ${2:callback})",
     "description": "deleteCookie(cookieName, callback)"
   },
   "deleteCookies": {
     "prefix": "nwdeleteCookies",
-    "body": "deleteCookies(${0:optionalCallback})",
+    "body": "deleteCookies(${1:optionalCallback})",
     "description": "deleteCookies(optionalCallback)"
   },
   "injectScript": {
     "prefix": "nwinjectScript",
-    "body": "injectScript(${0:scriptUrl}, ${1:id}, ${2:optionalCallback})",
+    "body": "injectScript(${1:scriptUrl}, ${2:id}, ${3:optionalCallback})",
     "description": "injectScript(scriptUrl, id, optionalCallback)"
   },
   "getLogTypes": {
     "prefix": "nwgetLogTypes",
-    "body": "getLogTypes(${0:callback})",
+    "body": "getLogTypes(${1:callback})",
     "description": "getLogTypes(callback)"
   },
   "getLog": {
     "prefix": "nwgetLog",
-    "body": "getLog(${0:typeString}, ${1:callback})",
+    "body": "getLog(${1:typeString}, ${2:callback})",
     "description": "getLog(typeString, callback)"
   },
   "isLogAvailable": {
     "prefix": "nwisLogAvailable",
-    "body": "isLogAvailable(${0:typeString}, ${1:callback})",
+    "body": "isLogAvailable(${1:typeString}, ${2:callback})",
     "description": "isLogAvailable(typeString, callback)"
   },
   "click": {
     "prefix": "nwclick",
-    "body": "click(${0:selector}, ${1:optionalCallback})",
+    "body": "click(${1:selector}, ${2:optionalCallback})",
     "description": "click(selector, optionalCallback)"
   },
   "clearValue": {
     "prefix": "nwclearValue",
-    "body": "clearValue(${0:selector}, ${1:optionalCallback})",
+    "body": "clearValue(${1:selector}, ${2:optionalCallback})",
     "description": "clearValue(selector, optionalCallback)"
   },
   "getAttribute": {
     "prefix": "nwgetAttribute",
-    "body": "getAttribute(${0:selector}, ${1:attribute}, ${2:callback})",
+    "body": "getAttribute(${1:selector}, ${2:attribute}, ${3:callback})",
     "description": "getAttribute(selector, attribute, callback)"
   },
   "getCssProperty": {
     "prefix": "nwgetCssProperty",
-    "body": "getCssProperty(${0:selector}, ${1:cssProperty}, ${2:callback})",
+    "body": "getCssProperty(${1:selector}, ${2:cssProperty}, ${3:callback})",
     "description": "getCssProperty(selector, cssProperty, callback)"
   },
   "getElementSize": {
     "prefix": "nwgetElementSize",
-    "body": "getElementSize(${0:selector}, ${1:callback})",
+    "body": "getElementSize(${1:selector}, ${2:callback})",
     "description": "getElementSize(selector, callback)"
   },
   "getLocation": {
     "prefix": "nwgetLocation",
-    "body": "getLocation(${0:selector}, ${1:callback})",
+    "body": "getLocation(${1:selector}, ${2:callback})",
     "description": "getLocation(selector, callback)"
   },
   "getLocationInView": {
     "prefix": "nwgetLocationInView",
-    "body": "getLocationInView(${0:selector}, ${1:callback})",
+    "body": "getLocationInView(${1:selector}, ${2:callback})",
     "description": "getLocationInView(selector, callback)"
   },
   "getTagName": {
     "prefix": "nwgetTagName",
-    "body": "getTagName(${0:selector}, ${1:callback})",
+    "body": "getTagName(${1:selector}, ${2:callback})",
     "description": "getTagName(selector, callback)"
   },
   "getText": {
     "prefix": "nwgetText",
-    "body": "getText(${0:selector}, ${1:callback})",
+    "body": "getText(${1:selector}, ${2:callback})",
     "description": "getText(selector, callback)"
   },
   "getValue": {
     "prefix": "nwgetValue",
-    "body": "getValue(${0:selector}, ${1:callback})",
+    "body": "getValue(${1:selector}, ${2:callback})",
     "description": "getValue(selector, callback)"
   },
   "isVisible": {
     "prefix": "nwisVisible",
-    "body": "isVisible(${0:selector}, ${1:callback})",
+    "body": "isVisible(${1:selector}, ${2:callback})",
     "description": "isVisible(selector, callback)"
   },
   "moveToElement": {
     "prefix": "nwmoveToElement",
-    "body": "moveToElement(${0:selector}, ${1:xoffset}, ${2:yoffset}, ${3:optionalCallback})",
+    "body": "moveToElement(${1:selector}, ${2:xoffset}, ${3:yoffset}, ${4:optionalCallback})",
     "description": "moveToElement(selector, xoffset, yoffset, optionalCallback)"
   },
   "setValue": {
     "prefix": "nwsetValue",
-    "body": "setValue(${0:selector}, ${1:inputValue}, ${2:optionalCallback})",
+    "body": "setValue(${1:selector}, ${2:inputValue}, ${3:optionalCallback})",
     "description": "setValue(selector, inputValue, optionalCallback)"
   },
   "submitForm": {
     "prefix": "nwsubmitForm",
-    "body": "submitForm(${0:selector}, ${1:optionalCallback})",
+    "body": "submitForm(${1:selector}, ${2:optionalCallback})",
     "description": "submitForm(selector, optionalCallback)"
   },
   "attributeContains": {
     "prefix": "nwattributeContains",
-    "body": "attributeContains(${0:selector}, ${1:attribute}, ${2:expected}, ${3:optionalMessage})",
+    "body": "attributeContains(${1:selector}, ${2:attribute}, ${3:expected}, ${4:optionalMessage})",
     "description": "attributeContains(selector, attribute, expected, optionalMessage)"
   },
   "attributeEquals": {
     "prefix": "nwattributeEquals",
-    "body": "attributeEquals(${0:selector}, ${1:attribute}, ${2:expected}, ${3:optionalMessage})",
+    "body": "attributeEquals(${1:selector}, ${2:attribute}, ${3:expected}, ${4:optionalMessage})",
     "description": "attributeEquals(selector, attribute, expected, optionalMessage)"
   },
   "containsText": {
     "prefix": "nwcontainsText",
-    "body": "containsText(${0:selector}, ${1:expectedText}, ${2:optionalMessage})",
+    "body": "containsText(${1:selector}, ${2:expectedText}, ${3:optionalMessage})",
     "description": "containsText(selector, expectedText, optionalMessage)"
   },
   "cssClassNotPresent": {
     "prefix": "nwcssClassNotPresent",
-    "body": "cssClassNotPresent(${0:selector}, ${1:className}, ${2:optionalMessage})",
+    "body": "cssClassNotPresent(${1:selector}, ${2:className}, ${3:optionalMessage})",
     "description": "cssClassNotPresent(selector, className, optionalMessage)"
   },
   "cssClassPresent": {
     "prefix": "nwcssClassPresent",
-    "body": "cssClassPresent(${0:selector}, ${1:className}, ${2:optionalMessage})",
+    "body": "cssClassPresent(${1:selector}, ${2:className}, ${3:optionalMessage})",
     "description": "cssClassPresent(selector, className, optionalMessage)"
   },
   "cssProperty": {
     "prefix": "nwcssProperty",
-    "body": "cssProperty(${0:selector}, ${1:cssProperty}, ${2:expected}, ${3:optionalMessage})",
+    "body": "cssProperty(${1:selector}, ${2:cssProperty}, ${3:expected}, ${4:optionalMessage})",
     "description": "cssProperty(selector, cssProperty, expected, optionalMessage)"
   },
   "elementNotPresent": {
     "prefix": "nwelementNotPresent",
-    "body": "elementNotPresent(${0:selector}, ${1:optionalMessage})",
+    "body": "elementNotPresent(${1:selector}, ${2:optionalMessage})",
     "description": "elementNotPresent(selector, optionalMessage)"
   },
   "elementPresent": {
     "prefix": "nwelementPresent",
-    "body": "elementPresent(${0:selector}, ${1:optionalMessage})",
+    "body": "elementPresent(${1:selector}, ${2:optionalMessage})",
     "description": "elementPresent(selector, optionalMessage)"
   },
   "hidden": {
     "prefix": "nwhidden",
-    "body": "hidden(${0:selector}, ${1:optionalMessage})",
+    "body": "hidden(${1:selector}, ${2:optionalMessage})",
     "description": "hidden(selector, optionalMessage)"
   },
   "title": {
     "prefix": "nwtitle",
-    "body": "title(${0:expected}, ${1:optionalMessage})",
+    "body": "title(${1:expected}, ${2:optionalMessage})",
     "description": "title(expected, optionalMessage)"
   },
   "titleContains": {
     "prefix": "nwtitleContains",
-    "body": "titleContains(${0:expected}, ${1:optionalMessage})",
+    "body": "titleContains(${1:expected}, ${2:optionalMessage})",
     "description": "titleContains(expected, optionalMessage)"
   },
   "urlContains": {
     "prefix": "nwurlContains",
-    "body": "urlContains(${0:expected}, ${1:optionalMessage})",
+    "body": "urlContains(${1:expected}, ${2:optionalMessage})",
     "description": "urlContains(expected, optionalMessage)"
   },
   "urlEquals": {
     "prefix": "nwurlEquals",
-    "body": "urlEquals(${0:expected}, ${1:optionalMessage})",
+    "body": "urlEquals(${1:expected}, ${2:optionalMessage})",
     "description": "urlEquals(expected, optionalMessage)"
   },
   "value": {
     "prefix": "nwvalue",
-    "body": "value(${0:expected}, ${1:optionalMessage})",
+    "body": "value(${1:expected}, ${2:optionalMessage})",
     "description": "value(expected, optionalMessage)"
   },
   "valueContains": {
     "prefix": "nwvalueContains",
-    "body": "valueContains(${0:selector}, ${1:expected}, ${2:optionalMessage})",
+    "body": "valueContains(${1:selector}, ${2:expected}, ${3:optionalMessage})",
     "description": "valueContains(selector, expected, optionalMessage)"
   },
   "visible": {
     "prefix": "nwvisible",
-    "body": "visible(${0:selector}, ${1:optionalMessage})",
+    "body": "visible(${1:selector}, ${2:optionalMessage})",
     "description": "visible(selector, optionalMessage)"
   },
   "waitForElementNotPresent": {
     "prefix": "nwwaitForElementNotPresent",
-    "body": "waitForElementNotPresent(${0:selector}, ${1:time})",
+    "body": "waitForElementNotPresent(${1:selector}, ${2:time})",
     "description": "waitForElementNotPresent(selector, time)"
   },
   "waitForElementNotVisible": {
     "prefix": "nwwaitForElementNotVisible",
-    "body": "waitForElementNotVisible(${0:selector}, ${1:time})",
+    "body": "waitForElementNotVisible(${1:selector}, ${2:time})",
     "description": "waitForElementNotVisible(selector, time)"
   },
   "waitForElementPresent": {
     "prefix": "nwwaitForElementPresent",
-    "body": "waitForElementPresent(${0:selector}, ${1:time})",
+    "body": "waitForElementPresent(${1:selector}, ${2:time})",
     "description": "waitForElementPresent(selector, time)"
   },
 "waitForElementVisible": {
     "prefix": "nwwaitForElementVisible",
-    "body": "waitForElementVisible(${0:selector}, ${1:time})",
+    "body": "waitForElementVisible(${1:selector}, ${2:time})",
     "description": "waitForElementVisible(selector, time)"
   }
 }
