@@ -187,52 +187,52 @@
   "attributeContains": {
     "prefix": "nwattributeContains",
     "body": "attributeContains(${1:selector}, ${2:attribute}, ${3:expected}, ${4:optionalMessage})",
-    "description": "attributeContains(selector, attribute, expected, optionalMessage)"
+    "description": "Checks if the given attribute of an element contains the expected value"
   },
   "attributeEquals": {
     "prefix": "nwattributeEquals",
     "body": "attributeEquals(${1:selector}, ${2:attribute}, ${3:expected}, ${4:optionalMessage})",
-    "description": "attributeEquals(selector, attribute, expected, optionalMessage)"
+    "description": "Checks if the given attribute of an element has the expected value"
   },
   "containsText": {
     "prefix": "nwcontainsText",
     "body": "containsText(${1:selector}, ${2:expectedText}, ${3:optionalMessage})",
-    "description": "containsText(selector, expectedText, optionalMessage)"
+    "description": "Checks if the given element contains the specified text"
   },
   "cssClassNotPresent": {
     "prefix": "nwcssClassNotPresent",
     "body": "cssClassNotPresent(${1:selector}, ${2:className}, ${3:optionalMessage})",
-    "description": "cssClassNotPresent(selector, className, optionalMessage)"
+    "description": "Checks if the given element does not have the specified CSS class"
   },
   "cssClassPresent": {
     "prefix": "nwcssClassPresent",
     "body": "cssClassPresent(${1:selector}, ${2:className}, ${3:optionalMessage})",
-    "description": "cssClassPresent(selector, className, optionalMessage)"
+    "description": "Checks if the given element has the specified CSS class"
   },
   "cssProperty": {
     "prefix": "nwcssProperty",
     "body": "cssProperty(${1:selector}, ${2:cssProperty}, ${3:expected}, ${4:optionalMessage})",
-    "description": "cssProperty(selector, cssProperty, expected, optionalMessage)"
+    "description": "Checks if the specified css property of a given element has the expected value"
   },
   "elementNotPresent": {
     "prefix": "nwelementNotPresent",
     "body": "elementNotPresent(${1:selector}, ${2:optionalMessage})",
-    "description": "elementNotPresent(selector, optionalMessage)"
+    "description": "Checks if the given element does not exist in the DOM"
   },
   "elementPresent": {
     "prefix": "nwelementPresent",
     "body": "elementPresent(${1:selector}, ${2:optionalMessage})",
-    "description": "elementPresent(selector, optionalMessage)"
+    "description": "Checks if the given element exists in the DOM"
   },
   "hidden": {
     "prefix": "nwhidden",
     "body": "hidden(${1:selector}, ${2:optionalMessage})",
-    "description": "hidden(selector, optionalMessage)"
+    "description": "Checks if the given element is not visible on the page"
   },
   "title": {
     "prefix": "nwtitle",
     "body": "title(${1:expected}, ${2:optionalMessage})",
-    "description": "title(expected, optionalMessage)"
+    "description": "Checks if the page title equals the given value"
   },
   "titleContains": {
     "prefix": "nwtitleContains",
@@ -242,27 +242,27 @@
   "urlContains": {
     "prefix": "nwurlContains",
     "body": "urlContains(${1:expected}, ${2:optionalMessage})",
-    "description": "urlContains(expected, optionalMessage)"
+    "description": "Checks if the current URL contains the given value"
   },
   "urlEquals": {
     "prefix": "nwurlEquals",
     "body": "urlEquals(${1:expected}, ${2:optionalMessage})",
-    "description": "urlEquals(expected, optionalMessage)"
+    "description": "Checks if the current url equals the given value"
   },
   "value": {
     "prefix": "nwvalue",
     "body": "value(${1:expected}, ${2:optionalMessage})",
-    "description": "value(expected, optionalMessage)"
+    "description": "Checks if the given form element's value equals the expected value"
   },
   "valueContains": {
     "prefix": "nwvalueContains",
     "body": "valueContains(${1:selector}, ${2:expected}, ${3:optionalMessage})",
-    "description": "valueContains(selector, expected, optionalMessage)"
+    "description": "Checks if the given form element's value contains the expected value"
   },
   "visible": {
     "prefix": "nwvisible",
     "body": "visible(${1:selector}, ${2:optionalMessage})",
-    "description": "visible(selector, optionalMessage)"
+    "description": "Checks if the given element is visible on the page"
   },
   "waitForElementNotPresent": {
     "prefix": "nwwaitForElementNotPresent",
