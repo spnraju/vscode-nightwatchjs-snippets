@@ -11,22 +11,22 @@
 
 **Assert/Verify**
 
-:heavy_check_mark: **attributeContains**(selector, attribute, expected, optionalMessage)
-:heavy_check_mark: **attributeEquals**(selector, attribute, expected, optionalMessage)
-:heavy_check_mark: **containsText**(selector, expectedText, optionalMessage)
-:heavy_check_mark: **cssClassPresent**(selector, className, optionalMessage)
-:heavy_check_mark: **cssClassNotPresent**(selector, className, optionalMessage)
-:heavy_check_mark: **cssProperty**(selector, cssProperty, expected, optionalMessage)
-:heavy_check_mark: **elementPresent**(selector, optionalMessage)
-:heavy_check_mark: **elementNotPresent**(selector, optionalMessage)
-:heavy_check_mark: **hidden**(selector, optionalMessage)
-:heavy_check_mark: **title**(expected, optionalMessage)
-:heavy_check_mark: **titleContains**(expected, optionalMessage)
-:heavy_check_mark: **urlContains**(expected, optionalMessage)
-:heavy_check_mark: **urlEquals**(expected, optionalMessage)
-:heavy_check_mark: **value**(expected, optionalMessage)
-:heavy_check_mark: **valueContains**(selector, expected, optionalMessage)
-:heavy_check_mark: **visible**(selector, optionalMessage)
+:heavy_check_mark: **attributeContains**(selector, attribute, expected, optionalMessage)\
+:heavy_check_mark: **attributeEquals**(selector, attribute, expected, optionalMessage)\
+:heavy_check_mark: **containsText**(selector, expectedText, optionalMessage)\
+:heavy_check_mark: **cssClassPresent**(selector, className, optionalMessage)\
+:heavy_check_mark: **cssClassNotPresent**(selector, className, optionalMessage)\
+:heavy_check_mark: **cssProperty**(selector, cssProperty, expected, optionalMessage)\
+:heavy_check_mark: **elementPresent**(selector, optionalMessage)\
+:heavy_check_mark: **elementNotPresent**(selector, optionalMessage)\
+:heavy_check_mark: **hidden**(selector, optionalMessage)\
+:heavy_check_mark: **title**(expected, optionalMessage)\
+:heavy_check_mark: **titleContains**(expected, optionalMessage)\
+:heavy_check_mark: **urlContains**(expected, optionalMessage)\
+:heavy_check_mark: **urlEquals**(expected, optionalMessage)\
+:heavy_check_mark: **value**(expected, optionalMessage)\
+:heavy_check_mark: **valueContains**(selector, expected, optionalMessage)\
+:heavy_check_mark: **visible**(selector, optionalMessage)\
 
 **Finding Elements**
 
