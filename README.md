@@ -1,15 +1,18 @@
 # NightwatchJS code snippets for Visual Studio Code
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/Raju.vscode-nightwatchjs-snippets.svg?color=blue)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Installs)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 [![Downloads](https://vsmarketplacebadge.apphb.com/installs/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Downloads)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Rating)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
+[![TrendingMonthly](https://vsmarketplacebadge.apphb.com/trending-monthly/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Trending-Monthly)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 
-:pushpin: Please type "nw" first and it will list down all the commands
+
+:pushpin: Please type "nw" first and it will list down all the commands\
 :pushpin: Please help with rating/feedback which might be useful in improving this further
 
 **List of commands :**
 
-##Assert/Verify
+## Assert/Verify
 
 :heavy_check_mark: **attributeContains**(selector, attribute, expected, optionalMessage)\
 :heavy_check_mark: **attributeEquals**(selector, attribute, expected, optionalMessage)\
@@ -28,7 +31,7 @@
 :heavy_check_mark: **valueContains**(selector, expected, optionalMessage)\
 :heavy_check_mark: **visible**(selector, optionalMessage)\
 
-##Finding Elements
+## Finding Elements
 
 :heavy_check_mark: **waitForElementNotVisible**(selector, time)\
 :heavy_check_mark: **waitForElementNotPresent**(selector, time)\
@@ -40,7 +43,7 @@
 :x: **elementIdElement**(webElementId, using, value, callback)\
 :x: **elementIdElements**(webElementId, using, value, callback)\
 
-##Element Interaction
+## Element Interaction
 
 :heavy_check_mark: **click**(selector, optionalCallback)\
 :heavy_check_mark: **clearValue**(selector, optionalCallback)\
@@ -49,7 +52,7 @@
 :heavy_check_mark: **submitForm**(selector, optionalCallback)\
 :x: **keys**(keysToSend, optionalCallback)\
 
-##Element State
+## Element State
 
 :heavy_check_mark: **getAttribute**(selector, attribute, callback)\
 :heavy_check_mark: **getCssProperty**(selector, cssProperty, callback)\
@@ -60,12 +63,12 @@
 :heavy_check_mark: **isVisible**(selector, callback)\
 :x: **elementActive**(callback)\
 
-##Element Location
+## Element Location
 
 :heavy_check_mark: **getLocation**(selector, callback)\
 :heavy_check_mark: **getLocationInView**(selector, callback)\
 
-##Protocol Element Commands
+## Protocol Element Commands
 
 :x: **elementIdAttribute**(webElementId, attributeName, callback)\
 :x: **elementIdCssProperty**(webElementId, cssPropertyName, callback)\
@@ -82,14 +85,14 @@
 :x: **elementIdValue**(webElementId, optionalValue, callback)\
 :x: **submit**(webElementId, optionalCallback)\
 
-##Document Handling
+## Document Handling
 
 :heavy_check_mark: **injectScript**(scriptUrl, optionalId, optionalCallback)\
 :x: **execute**(body, args, optionalCallback)\
 :x: **executeAsync**(script, args, optionalCallback)\
 :x: **source**(callback)\
 
-##Sessions
+## Sessions
 
 :heavy_check_mark: **end**(optionalCallback)\
 :heavy_check_mark: **getLogTypes**(callback)\
@@ -104,7 +107,7 @@
 :x: **sessionLog**(typeString, callback)\
 :x: **sessionLogTypes**(callback)\
 
-##Navigation
+## Navigation
 
 :heavy_check_mark: **init**(optionalURL, optionalCallback)\
 :heavy_check_mark: **getTitle**(callback)\
@@ -115,7 +118,7 @@
 :x: **refresh**(optionalCallback)\
 :x: **title**(callback)\
 
-##Window Related
+## Window Related
 
 :heavy_check_mark: **closeWindow**(optionalCallback)\
 :heavy_check_mark: **resizeWindow**(width, height, optionalCallback)\
@@ -131,7 +134,7 @@
 :x: **frame**(optionalFrameID, optionalCallback)\
 :x: **frameParent**(optionalCallback)\
 
-##Cookies
+## Cookies
 
 :heavy_check_mark: **getCookies**(callback)\
 :heavy_check_mark: **getCookie**(cookieName, callback)\
@@ -140,7 +143,7 @@
 :heavy_check_mark: **deleteCookies**(optionalCallback)\
 :x: **cookie**(method, optionalCallbackOrCookie)\
 
-##User Actions
+## User Actions
 
 :x: **doubleClick**(optionalCallback)\
 :x: **mouseButtonClick**(button, optionalCallback)\
@@ -148,19 +151,19 @@
 :x: **mouseButtonUp**(button, optionalCallback)\
 :x: **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback)\
 
-##User Prompts
+## User Prompts
 
 :x: **acceptAlert**(optionalCallback)\
 :x: **dismissAlert**(optionalCallback)\
 :x: **getAlertText**(callback)\
 :x: **setAlertText**(value, optionalCallback)\
 
-##Screen Capture
+## Screen Capture
 
 :x: **saveScreenshot**(fileName, optionalCallback)\
 :x: **screenshot**(log_screenshot_data, callback)\
 
-##Mobile Related
+## Mobile Related
 
 :x: **getOrientation**(callback)\
 :x: **setOrientation**(orientation, optionalCallback)\
@@ -168,7 +171,7 @@
 :x: **currentContext**(callback)\
 :x: **setContext**(context, optionalCallback)\
 
-##Utilities / Debugging
+## Utilities / Debugging
 
 :heavy_check_mark: **pause**(1000ms, optionalCallback)\
 :heavy_check_mark: **useCss**(optionalCallback)\
