@@ -180,4 +180,4 @@
 :heavy_check_mark: **perform**(callback)
 
 
-<p align="center"><b>Built with</b></p> :heart:
+<p align="center"><b>Built with :heart:</b></p>
