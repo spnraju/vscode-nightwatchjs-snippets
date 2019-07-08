@@ -4,7 +4,7 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Installs)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 [![Downloads](https://vsmarketplacebadge.apphb.com/installs/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Downloads)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Rating)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
-[![TrendingMonthly](https://vsmarketplacebadge.apphb.com/trending-monthly/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=Trending-Monthly)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
+[![TrendingMonthly](https://vsmarketplacebadge.apphb.com/trending-monthly/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=TrendingMonthly)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 
 
 :pushpin: Please type "nw" first and it will list down all the commands\
