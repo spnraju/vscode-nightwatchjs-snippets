@@ -30,7 +30,7 @@
 :heavy_check_mark: **urlEquals**(expected, optionalMessage)\
 :heavy_check_mark: **value**(expectedText, optionalMessage)\
 :heavy_check_mark: **valueContains**(selector, expectedText, optionalMessage)\
-:heavy_check_mark: **visible**(selector, optionalMessage)\
+:heavy_check_mark: **visible**(selector, optionalMessage)
 
 ## Finding Elements
 
@@ -42,7 +42,7 @@
 :x: **elements**(using, value, callback)\
 :x: **elementIdEquals**(webElementId, otherId, callback)\
 :x: **elementIdElement**(webElementId, using, value, callback)\
-:x: **elementIdElements**(webElementId, using, value, callback)\
+:x: **elementIdElements**(webElementId, using, value, callback)
 
 ## Element Interaction
 
@@ -51,7 +51,7 @@
 :heavy_check_mark: **moveToElement**(selector, xoffset, yoffset, optionalCallback)\
 :heavy_check_mark: **setValue**(selector, inputValue, optionalCallback)\
 :heavy_check_mark: **submitForm**(selector, optionalCallback)\
-:x: **keys**(keysToSend, optionalCallback)\
+:x: **keys**(keysToSend, optionalCallback)
 
 ## Element State
 
@@ -62,12 +62,12 @@
 :heavy_check_mark: **getText**(optionalUsing, selector, callback)\
 :heavy_check_mark: **getValue**(selector, callback)\
 :heavy_check_mark: **isVisible**(selector, callback)\
-:x: **elementActive**(callback)\
+:x: **elementActive**(callback)
 
 ## Element Location
 
 :heavy_check_mark: **getLocation**(selector, callback)\
-:heavy_check_mark: **getLocationInView**(selector, callback)\
+:heavy_check_mark: **getLocationInView**(selector, callback)
 
 ## Protocol Element Commands
 
@@ -84,14 +84,14 @@
 :x: **elementIdSize**(webElementId, callback)\
 :x: **elementIdText**(webElementId, callback)\
 :x: **elementIdValue**(webElementId, optionalValue, callback)\
-:x: **submit**(webElementId, optionalCallback)\
+:x: **submit**(webElementId, optionalCallback)
 
 ## Document Handling
 
 :heavy_check_mark: **injectScript**(scriptUrl, optionalId, optionalCallback)\
 :x: **execute**(body, args, optionalCallback)\
 :x: **executeAsync**(script, args, optionalCallback)\
-:x: **source**(callback)\
+:x: **source**(callback)
 
 ## Sessions
 
@@ -106,7 +106,7 @@
 :x: **timeoutsImplicitWait**(ms, optionalCallback)\
 :x: **status**(callback)\
 :x: **sessionLog**(typeString, callback)\
-:x: **sessionLogTypes**(callback)\
+:x: **sessionLogTypes**(callback)
 
 ## Navigation
 
@@ -117,7 +117,7 @@
 :x: **back**(optionalCallback)\
 :x: **forward**(optionalCallback)\
 :x: **refresh**(optionalCallback)\
-:x: **title**(callback)\
+:x: **title**(callback)
 
 ## Window Related
 
@@ -133,7 +133,7 @@
 :x: **windowPosition**(windowHandle, offsetX, offsetY, callback)\
 :x: **windowSize**(windowHandle, width, height, optionalCallback)\
 :x: **frame**(optionalFrameID, optionalCallback)\
-:x: **frameParent**(optionalCallback)\
+:x: **frameParent**(optionalCallback)
 
 ## Cookies
 
@@ -142,7 +142,7 @@
 :heavy_check_mark: **setCookie**(cookie object, optionalCallback)\
 :heavy_check_mark: **deleteCookie**(cookieName, optionalCallback)\
 :heavy_check_mark: **deleteCookies**(optionalCallback)\
-:x: **cookie**(method, optionalCallbackOrCookie)\
+:x: **cookie**(method, optionalCallbackOrCookie)
 
 ## User Actions
 
@@ -150,19 +150,19 @@
 :x: **mouseButtonClick**(button, optionalCallback)\
 :x: **mouseButtonDown**(button, optionalCallback)\
 :x: **mouseButtonUp**(button, optionalCallback)\
-:x: **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback)\
+:x: **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback)
 
 ## User Prompts
 
 :x: **acceptAlert**(optionalCallback)\
 :x: **dismissAlert**(optionalCallback)\
 :x: **getAlertText**(callback)\
-:x: **setAlertText**(value, optionalCallback)\
+:x: **setAlertText**(value, optionalCallback)
 
 ## Screen Capture
 
 :x: **saveScreenshot**(fileName, optionalCallback)\
-:x: **screenshot**(log_screenshot_data, callback)\
+:x: **screenshot**(log_screenshot_data, callback)
 
 ## Mobile Related
 
@@ -170,14 +170,14 @@
 :x: **setOrientation**(orientation, optionalCallback)\
 :x: **contexts**(callback)\
 :x: **currentContext**(callback)\
-:x: **setContext**(context, optionalCallback)\
+:x: **setContext**(context, optionalCallback)
 
 ## Utilities / Debugging
 
 :heavy_check_mark: **pause**(ms, optionalCallback)\
 :heavy_check_mark: **useCss**(optionalCallback)\
 :heavy_check_mark: **useXpath**(optionalCallback)\
-:heavy_check_mark: **perform**(callback)\
+:heavy_check_mark: **perform**(callback)
 
 
-**Built with** :heart:
+<p align="center"><b>Built with</b></p> :heart:
