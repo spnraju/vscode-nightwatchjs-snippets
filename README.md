@@ -26,18 +26,18 @@
 :heavy_check_mark: **hidden**(selector, optionalMessage)\
 :heavy_check_mark: **title**(expected, optionalMessage)\
 :heavy_check_mark: **titleContains**(expected, optionalMessage)\
-:heavy_check_mark: **urlContains**(expected, optionalMessage)\
+:heavy_check_mark: **urlContains**(expectedText, optionalMessage)\
 :heavy_check_mark: **urlEquals**(expected, optionalMessage)\
-:heavy_check_mark: **value**(expected, optionalMessage)\
-:heavy_check_mark: **valueContains**(selector, expected, optionalMessage)\
+:heavy_check_mark: **value**(expectedText, optionalMessage)\
+:heavy_check_mark: **valueContains**(selector, expectedText, optionalMessage)\
 :heavy_check_mark: **visible**(selector, optionalMessage)\
 
 ## Finding Elements
 
-:heavy_check_mark: **waitForElementNotVisible**(selector, time)\
-:heavy_check_mark: **waitForElementNotPresent**(selector, time)\
-:heavy_check_mark: **waitForElementPresent**(selector, time)\
-:heavy_check_mark: **waitForElementVisible**(selector, time)\
+:heavy_check_mark: **waitForElementNotVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+:heavy_check_mark: **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+:heavy_check_mark: **waitForElementPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+:heavy_check_mark: **waitForElementVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
 :x: **element**(using, value, callback)\
 :x: **elements**(using, value, callback)\
 :x: **elementIdEquals**(webElementId, otherId, callback)\
@@ -46,7 +46,7 @@
 
 ## Element Interaction
 
-:heavy_check_mark: **click**(selector, optionalCallback)\
+:heavy_check_mark: **click**(optionalUsing, selector, optionalCallback)\
 :heavy_check_mark: **clearValue**(selector, optionalCallback)\
 :heavy_check_mark: **moveToElement**(selector, xoffset, yoffset, optionalCallback)\
 :heavy_check_mark: **setValue**(selector, inputValue, optionalCallback)\
@@ -59,7 +59,7 @@
 :heavy_check_mark: **getCssProperty**(selector, cssProperty, callback)\
 :heavy_check_mark: **getElementSize**(selector, callback)\
 :heavy_check_mark: **getTagName**(selector, callback)\
-:heavy_check_mark: **getText**(selector, callback)\
+:heavy_check_mark: **getText**(optionalUsing, selector, callback)\
 :heavy_check_mark: **getValue**(selector, callback)\
 :heavy_check_mark: **isVisible**(selector, callback)\
 :x: **elementActive**(callback)\
@@ -127,8 +127,8 @@
 :heavy_check_mark: **switchWindow**(handleOrName, optionalCallback)\
 :heavy_check_mark: **setWindowPosition**(offsetX, offsetY, optionalCallback)\
 :x: **window**(method, handleOrName, optionalCallback)\
-:x: **windowHandle**(optionalCallback)\
-:x: **windowHandles**(optionalCallback)\
+:x: **windowHandle**(callback)\
+:x: **windowHandles**(callback)\
 :x: **windowMaximize**(optionalHandleOrName, optionalCallback)\
 :x: **windowPosition**(windowHandle, offsetX, offsetY, callback)\
 :x: **windowSize**(windowHandle, width, height, optionalCallback)\
@@ -140,7 +140,7 @@
 :heavy_check_mark: **getCookies**(callback)\
 :heavy_check_mark: **getCookie**(cookieName, callback)\
 :heavy_check_mark: **setCookie**(cookie object, optionalCallback)\
-:heavy_check_mark: **deleteCookie**(cookieName, callback)\
+:heavy_check_mark: **deleteCookie**(cookieName, optionalCallback)\
 :heavy_check_mark: **deleteCookies**(optionalCallback)\
 :x: **cookie**(method, optionalCallbackOrCookie)\
 
@@ -174,7 +174,7 @@
 
 ## Utilities / Debugging
 
-:heavy_check_mark: **pause**(1000ms, optionalCallback)\
+:heavy_check_mark: **pause**(ms, optionalCallback)\
 :heavy_check_mark: **useCss**(optionalCallback)\
 :heavy_check_mark: **useXpath**(optionalCallback)\
 :heavy_check_mark: **perform**(callback)\
