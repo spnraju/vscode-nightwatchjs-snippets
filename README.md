@@ -38,11 +38,11 @@
 :heavy_check_mark: **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
 :heavy_check_mark: **waitForElementPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
 :heavy_check_mark: **waitForElementVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
-:x: **element**(using, value, callback)\
-:x: **elements**(using, value, callback)\
-:x: **elementIdEquals**(webElementId, otherId, callback)\
-:x: **elementIdElement**(webElementId, using, value, callback)\
-:x: **elementIdElements**(webElementId, using, value, callback)
+:heavy_check_mark: **element**(using, value, callback)\
+:heavy_check_mark: **elements**(using, value, callback)\
+:heavy_check_mark: **elementIdEquals**(webElementId, otherId, callback)\
+:heavy_check_mark: **elementIdElement**(webElementId, using, value, callback)\
+:heavy_check_mark: **elementIdElements**(webElementId, using, value, callback)
 
 ## Element Interaction
 
