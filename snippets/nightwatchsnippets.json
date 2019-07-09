@@ -204,6 +204,76 @@
     "body": "getLocationInView(${1:selector}, ${2:callback})",
     "description": "Determine an element's location on the screen once it has been scrolled into view"
   },
+  "elementIdAttribute": {
+    "prefix": "nwelementIdAttribute",
+    "body": "elementIdAttribute(${1:webElementId}, ${2:attributeName}, ${3:callback})",
+    "description": "Get the value of an element's attribute"
+  },
+  "elementIdCssProperty": {
+    "prefix": "nwelementIdCssProperty",
+    "body": "elementIdCssProperty(${1:webElementId}, ${2:cssPropertyName}, ${3:callback})",
+    "description": "Retrieve the computed value of the given CSS property of the given element"
+  },
+  "elementIdClear": {
+    "prefix": "nwelementIdClear",
+    "body": "elementIdClear(${1:webElementId}, ${2:optionalCallback})",
+    "description": "Attempts to clear its value, reset the checked state, or text content"
+  },
+  "elementIdClick": {
+    "prefix": "nwelementIdClick",
+    "body": "elementIdClick(${1:webElementId}, ${2:optionalCallback})",
+    "description": "Scrolls into view the element and clicks the in-view center point"
+  },
+  "elementIdDisplayed": {
+    "prefix": "nwelementIdDisplayed",
+    "body": "elementIdDisplayed(${1:webElementId}, ${2:callback})",
+    "description": "Determine if an element is currently displayed"
+  },
+  "elementIdEnabled": {
+    "prefix": "nwelementIdEnabled",
+    "body": "elementIdEnabled(${1:webElementId}, ${2:callback})",
+    "description": "Determine if an element is currently enabled"
+  },
+  "elementIdLocationInView": {
+    "prefix": "nwelementIdLocationInView",
+    "body": "elementIdLocationInView(${1:webElementId}, ${2:optionalCallback})",
+    "description": "Determine an element's location on the screen once it has been scrolled into view"
+  },
+  "elementIdLocation": {
+    "prefix": "nwelementIdLocation",
+    "body": "elementIdLocation(${1:webElementId}, ${2:callback})",
+    "description": "Determine an element's location on the page"
+  },
+  "elementIdName": {
+    "prefix": "nwelementIdName",
+    "body": "elementIdName(${1:webElementId}, ${2:callback})",
+    "description": "Retrieve the qualified tag name of the given element"
+  },
+  "elementIdSelected": {
+    "prefix": "nwelementIdSelected",
+    "body": "elementIdSelected(${1:webElementId}, ${2:callback})",
+    "description": "Determine if an OPTION element, or an INPUT element of type checkbox or radio button is currently selected"
+  },
+  "elementIdSize": {
+    "prefix": "nwelementIdSize",
+    "body": "elementIdSize(${1:webElementId}, ${2:callback})",
+    "description": "Determine an element's size in pixels"
+  },
+  "elementIdText": {
+    "prefix": "nwelementIdText",
+    "body": "elementIdText(${1:webElementId}, ${2:callback})",
+    "description": "Returns the visible text for the element"
+  },
+  "elementIdValue": {
+    "prefix": "nwelementIdValue",
+    "body": "elementIdValue(${1:webElementId}, ${2:optionalValue}, ${3:callback})",
+    "description": "sends the provided keys to the element, or returns the current value of the element"
+  },
+  "submit": {
+    "prefix": "nwsubmit",
+    "body": "submit(${1:webElementId}, ${2:optionalCallback})",
+    "description": "Submit a FORM element"
+  },
   "end": {
     "prefix": "nwend",
     "body": "end(${1:optionalCallback})",

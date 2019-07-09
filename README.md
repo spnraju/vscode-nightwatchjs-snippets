@@ -71,20 +71,20 @@
 
 ## Protocol Element Commands
 
-:x: **elementIdAttribute**(webElementId, attributeName, callback)\
-:x: **elementIdCssProperty**(webElementId, cssPropertyName, callback)\
-:x: **elementIdClear**(webElementId, optionalCallback)\
-:x: **elementIdClick**(webElementId, optionalCallback)\
-:x: **elementIdDisplayed**(webElementId, callback)\
-:x: **elementIdEnabled**(webElementId, callback)\
-:x: **elementIdLocationInView**(webElementId, optionalCallback)\
-:x: **elementIdLocation**(webElementId, callback)\
-:x: **elementIdName**(webElementId, callback)\
-:x: **elementIdSelected**(webElementId, callback)\
-:x: **elementIdSize**(webElementId, callback)\
-:x: **elementIdText**(webElementId, callback)\
-:x: **elementIdValue**(webElementId, optionalValue, callback)\
-:x: **submit**(webElementId, optionalCallback)
+:heavy_check_mark: **elementIdAttribute**(webElementId, attributeName, callback)\
+:heavy_check_mark: **elementIdCssProperty**(webElementId, cssPropertyName, callback)\
+:heavy_check_mark: **elementIdClear**(webElementId, optionalCallback)\
+:heavy_check_mark: **elementIdClick**(webElementId, optionalCallback)\
+:heavy_check_mark: **elementIdDisplayed**(webElementId, callback)\
+:heavy_check_mark: **elementIdEnabled**(webElementId, callback)\
+:heavy_check_mark: **elementIdLocationInView**(webElementId, optionalCallback)\
+:heavy_check_mark: **elementIdLocation**(webElementId, callback)\
+:heavy_check_mark: **elementIdName**(webElementId, callback)\
+:heavy_check_mark: **elementIdSelected**(webElementId, callback)\
+:heavy_check_mark: **elementIdSize**(webElementId, callback)\
+:heavy_check_mark: **elementIdText**(webElementId, callback)\
+:heavy_check_mark: **elementIdValue**(webElementId, optionalValue, callback)\
+:heavy_check_mark: **submit**(webElementId, optionalCallback)
 
 ## Document Handling
 
