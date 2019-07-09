@@ -7,8 +7,8 @@
 [![TrendingMonthly](https://vsmarketplacebadge.apphb.com/trending-monthly/Raju.vscode-nightwatchjs-snippets.svg?color=blue&&subject=TrendingMonthly)](https://marketplace.visualstudio.com/items?itemName=Raju.vscode-nightwatchjs-snippets)
 
 
-:pushpin: Please type "nw" first and it will list down all the commands\
-:pushpin: Please help with rating/feedback which might be useful in improving this further
+**Please type "nw" first and it will list down all the commands**
+**Please help with rating/feedback which might be useful in improving this further**
 
 
 **List of commands :**
