@@ -142,12 +142,12 @@
   "getLocation": {
     "prefix": "nwgetLocation",
     "body": "getLocation(${1:selector}, ${2:callback})",
-    "description": "getLocation(selector, callback)"
+    "description": "Determine an element's location on the page"
   },
   "getLocationInView": {
     "prefix": "nwgetLocationInView",
     "body": "getLocationInView(${1:selector}, ${2:callback})",
-    "description": "getLocationInView(selector, callback)"
+    "description": "Determine an element's location on the screen once it has been scrolled into view"
   },
   "getTagName": {
     "prefix": "nwgetTagName",
