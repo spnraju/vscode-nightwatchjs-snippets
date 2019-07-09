@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.2] - 09-07-2019 (DD-MM-YYYY)
+### Patch
+- fix formatting issues in README.md for marketplace
+
 ## [0.3.1] - 09-07-2019 (DD-MM-YYYY)
 ### Patch
 - fix formatting issues in README.md
