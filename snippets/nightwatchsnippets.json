@@ -127,17 +127,17 @@
   "getAttribute": {
     "prefix": "nwgetAttribute",
     "body": "getAttribute(${1:selector}, ${2:attribute}, ${3:callback})",
-    "description": "getAttribute(selector, attribute, callback)"
+    "description": "Retrieve the value of an attribute for a given DOM element"
   },
   "getCssProperty": {
     "prefix": "nwgetCssProperty",
     "body": "getCssProperty(${1:selector}, ${2:cssProperty}, ${3:callback})",
-    "description": "getCssProperty(selector, cssProperty, callback)"
+    "description": "Retrieve the value of a css property for a given DOM element"
   },
   "getElementSize": {
     "prefix": "nwgetElementSize",
     "body": "getElementSize(${1:selector}, ${2:callback})",
-    "description": "getElementSize(selector, callback)"
+    "description": "Determine an element's size in pixels"
   },
   "getLocation": {
     "prefix": "nwgetLocation",
@@ -152,22 +152,27 @@
   "getTagName": {
     "prefix": "nwgetTagName",
     "body": "getTagName(${1:selector}, ${2:callback})",
-    "description": "getTagName(selector, callback)"
+    "description": "Query for an element's tag name"
   },
   "getText": {
     "prefix": "nwgetText",
-    "body": "getText(${1:selector}, ${2:callback})",
-    "description": "getText(selector, callback)"
+    "body": "getText(${1:optionalUsing}, ${2:selector}, ${3:callback})",
+    "description": "Returns the visible text for the element"
   },
   "getValue": {
     "prefix": "nwgetValue",
     "body": "getValue(${1:selector}, ${2:callback})",
-    "description": "getValue(selector, callback)"
+    "description": "Returns a form element current value"
   },
   "isVisible": {
     "prefix": "nwisVisible",
     "body": "isVisible(${1:selector}, ${2:callback})",
-    "description": "isVisible(selector, callback)"
+    "description": "Determine if an element is currently displayed"
+  },
+  "elementActive": {
+    "prefix": "nwelementActive",
+    "body": "elementActive(${1:callback})",
+    "description": "Get the element on the page that currently has focus"
   },
   "moveToElement": {
     "prefix": "nwmoveToElement",

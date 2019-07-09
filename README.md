@@ -62,7 +62,7 @@
 :heavy_check_mark: **getText**(optionalUsing, selector, callback)\
 :heavy_check_mark: **getValue**(selector, callback)\
 :heavy_check_mark: **isVisible**(selector, callback)\
-:x: **elementActive**(callback)
+:heavy_check_mark: **elementActive**(callback)
 
 ## Element Location
 
