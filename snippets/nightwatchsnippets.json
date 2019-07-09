@@ -266,22 +266,47 @@
   },
   "waitForElementNotPresent": {
     "prefix": "nwwaitForElementNotPresent",
-    "body": "waitForElementNotPresent(${1:selector}, ${2:time})",
-    "description": "waitForElementNotPresent(selector, time)"
+    "body": "waitForElementNotPresent(${1:optionalUsing}, ${2:selector}, ${3:optionalWaitForConditionTimeout}, ${4:optionalWaitForConditionPollInterval}, ${5:optionalAbortOnAssertionFailure}, ${6:optionalCallback}, ${7:optionalMessage})",
+    "description": "Waits a given time in milliseconds (default 5000ms) for an element to be not present"
   },
   "waitForElementNotVisible": {
     "prefix": "nwwaitForElementNotVisible",
-    "body": "waitForElementNotVisible(${1:selector}, ${2:time})",
-    "description": "waitForElementNotVisible(selector, time)"
+    "body": "waitForElementNotVisible(${1:optionalUsing}, ${2:selector}, ${3:optionalWaitForConditionTimeout}, ${4:optionalWaitForConditionPollInterval}, ${5:optionalAbortOnAssertionFailure}, ${6:optionalCallback}, ${7:optionalMessage})",
+    "description": "Waits a given time in milliseconds (default 5000ms) for an element to be not visible"
   },
   "waitForElementPresent": {
     "prefix": "nwwaitForElementPresent",
-    "body": "waitForElementPresent(${1:selector}, ${2:time})",
-    "description": "waitForElementPresent(selector, time)"
+    "body": "waitForElementPresent(${1:optionalUsing}, ${2:selector}, ${3:optionalWaitForConditionTimeout}, ${4:optionalWaitForConditionPollInterval}, ${5:optionalAbortOnAssertionFailure}, ${6:optionalCallback}, ${7:optionalMessage})",
+    "description": "Waits a given time in milliseconds (default 5000ms) for an element to be present in the page"
   },
-"waitForElementVisible": {
+  "waitForElementVisible": {
     "prefix": "nwwaitForElementVisible",
-    "body": "waitForElementVisible(${1:selector}, ${2:time})",
-    "description": "waitForElementVisible(selector, time)"
-  }
+    "body": "waitForElementVisible(${1:optionalUsing}, ${2:selector}, ${3:optionalWaitForConditionTimeout}, ${4:optionalWaitForConditionPollInterval}, ${5:optionalAbortOnAssertionFailure}, ${6:optionalCallback}, ${7:optionalMessage})",
+    "description": "Waits a given time in milliseconds (default 5000ms) for an element to be visible in the page"
+  },
+  "element": {
+    "prefix": "nwelement",
+    "body": "element(${1:using}, ${2:value}, ${3:callback})",
+    "description": "Search for an element on the page, starting from the document root"
+  },
+  "elements": {
+    "prefix": "nwelements",
+    "body": "elements(${1:using}, ${2:value}, ${3:callback})",
+    "description": "Search for an element on the page, starting from the document root"
+  },
+  "elementIdEquals": {
+    "prefix": "nwelementIdEquals",
+    "body": "elementIdEquals(${1:webElementId}, ${2:otherId}, ${3:callback})",
+    "description": "Test if two web element IDs refer to the same DOM element"
+  },
+  "elementIdElement": {
+    "prefix": "nwelementIdElement",
+    "body": "elementIdElement(${1:webElementId}, ${2:using}, ${3:value}, ${4:callback})",
+    "description": "Search for an element on the page, starting from the identified element"
+  },
+  "elementIdElements": {
+    "prefix": "nwelementIdElements",
+    "body": "elementIdElements(${1:webElementId}, ${2:using}, ${3:value}, ${4:callback})",
+    "description": "Search for multiple elements on the page, starting from the identified element"
+  },
 }
