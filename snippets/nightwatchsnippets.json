@@ -116,13 +116,13 @@
   },
   "click": {
     "prefix": "nwclick",
-    "body": "click(${1:selector}, ${2:optionalCallback})",
-    "description": "click(selector, optionalCallback)"
+    "body": "click(${1:optionalUsing}, ${2:selector}, ${3:optionalCallback})",
+    "description": "Simulates a click event on the given DOM element"
   },
   "clearValue": {
     "prefix": "nwclearValue",
     "body": "clearValue(${1:selector}, ${2:optionalCallback})",
-    "description": "clearValue(selector, optionalCallback)"
+    "description": "Clear a textarea or a text input element's value"
   },
   "getAttribute": {
     "prefix": "nwgetAttribute",
@@ -172,17 +172,22 @@
   "moveToElement": {
     "prefix": "nwmoveToElement",
     "body": "moveToElement(${1:selector}, ${2:xoffset}, ${3:yoffset}, ${4:optionalCallback})",
-    "description": "moveToElement(selector, xoffset, yoffset, optionalCallback)"
+    "description": "Move the mouse by an offset of the specified element"
   },
   "setValue": {
     "prefix": "nwsetValue",
     "body": "setValue(${1:selector}, ${2:inputValue}, ${3:optionalCallback})",
-    "description": "setValue(selector, inputValue, optionalCallback)"
+    "description": "Sends some text to an element"
   },
   "submitForm": {
     "prefix": "nwsubmitForm",
     "body": "submitForm(${1:selector}, ${2:optionalCallback})",
-    "description": "submitForm(selector, optionalCallback)"
+    "description": "Submit a FORM element"
+  },
+  "keys": {
+    "prefix": "nwkeys",
+    "body": "submitForm(${1:keysToSend}, ${2:optionalCallback})",
+    "description": "Send a sequence of key strokes to the active element"
   },
   "attributeContains": {
     "prefix": "nwattributeContains",

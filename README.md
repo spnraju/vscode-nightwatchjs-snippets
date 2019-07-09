@@ -51,7 +51,7 @@
 :heavy_check_mark: **moveToElement**(selector, xoffset, yoffset, optionalCallback)\
 :heavy_check_mark: **setValue**(selector, inputValue, optionalCallback)\
 :heavy_check_mark: **submitForm**(selector, optionalCallback)\
-:x: **keys**(keysToSend, optionalCallback)
+:heavy_check_mark: **keys**(keysToSend, optionalCallback)
 
 ## Element State
 
