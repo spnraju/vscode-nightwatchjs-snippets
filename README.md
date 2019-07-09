@@ -15,169 +15,166 @@
 
 ## Assert/Verify
 
-:heavy_check_mark: **attributeContains**(selector, attribute, expected, optionalMessage)\
-:heavy_check_mark: **attributeEquals**(selector, attribute, expected, optionalMessage)\
-:heavy_check_mark: **containsText**(selector, expectedText, optionalMessage)\
-:heavy_check_mark: **cssClassPresent**(selector, className, optionalMessage)\
-:heavy_check_mark: **cssClassNotPresent**(selector, className, optionalMessage)\
-:heavy_check_mark: **cssProperty**(selector, cssProperty, expected, optionalMessage)\
-:heavy_check_mark: **elementPresent**(selector, optionalMessage)\
-:heavy_check_mark: **elementNotPresent**(selector, optionalMessage)\
-:heavy_check_mark: **hidden**(selector, optionalMessage)\
-:heavy_check_mark: **title**(expected, optionalMessage)\
-:heavy_check_mark: **titleContains**(expected, optionalMessage)\
-:heavy_check_mark: **urlContains**(expectedText, optionalMessage)\
-:heavy_check_mark: **urlEquals**(expected, optionalMessage)\
-:heavy_check_mark: **value**(expectedText, optionalMessage)\
-:heavy_check_mark: **valueContains**(selector, expectedText, optionalMessage)\
-:heavy_check_mark: **visible**(selector, optionalMessage)
+* **attributeContains**(selector, attribute, expected, optionalMessage)\
+* **attributeEquals**(selector, attribute, expected, optionalMessage)\
+* **containsText**(selector, expectedText, optionalMessage)\
+* **cssClassPresent**(selector, className, optionalMessage)\
+* **cssClassNotPresent**(selector, className, optionalMessage)\
+* **cssProperty**(selector, cssProperty, expected, optionalMessage)\
+* **elementPresent**(selector, optionalMessage)\
+* **elementNotPresent**(selector, optionalMessage)\
+* **hidden**(selector, optionalMessage)\
+* **title**(expected, optionalMessage)\
+* **titleContains**(expected, optionalMessage)\
+* **urlContains**(expectedText, optionalMessage)\
+* **urlEquals**(expected, optionalMessage)\
+* **value**(expectedText, optionalMessage)\
+* **valueContains**(selector, expectedText, optionalMessage)\
+* **visible**(selector, optionalMessage)
 
 ## Finding Elements
 
-:heavy_check_mark: **waitForElementNotVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
-:heavy_check_mark: **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
-:heavy_check_mark: **waitForElementPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
-:heavy_check_mark: **waitForElementVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
-:heavy_check_mark: **element**(using, value, callback)\
-:heavy_check_mark: **elements**(using, value, callback)\
-:heavy_check_mark: **elementIdEquals**(webElementId, otherId, callback)\
-:heavy_check_mark: **elementIdElement**(webElementId, using, value, callback)\
-:heavy_check_mark: **elementIdElements**(webElementId, using, value, callback)
+* **waitForElementNotVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+* **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+* **waitForElementPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+* **waitForElementVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)\
+* **element**(using, value, callback)\
+* **elements**(using, value, callback)\
+* **elementIdEquals**(webElementId, otherId, callback)\
+* **elementIdElement**(webElementId, using, value, callback)\
+* **elementIdElements**(webElementId, using, value, callback)
 
 ## Element Interaction
 
-:heavy_check_mark: **click**(optionalUsing, selector, optionalCallback)\
-:heavy_check_mark: **clearValue**(selector, optionalCallback)\
-:heavy_check_mark: **moveToElement**(selector, xoffset, yoffset, optionalCallback)\
-:heavy_check_mark: **setValue**(selector, inputValue, optionalCallback)\
-:heavy_check_mark: **submitForm**(selector, optionalCallback)\
-:heavy_check_mark: **keys**(keysToSend, optionalCallback)
+* **click**(optionalUsing, selector, optionalCallback)\
+* **clearValue**(selector, optionalCallback)\
+* **moveToElement**(selector, xoffset, yoffset, optionalCallback)\
+* **setValue**(selector, inputValue, optionalCallback)\
+* **submitForm**(selector, optionalCallback)\
+* **keys**(keysToSend, optionalCallback)
 
 ## Element State
 
-:heavy_check_mark: **getAttribute**(selector, attribute, callback)\
-:heavy_check_mark: **getCssProperty**(selector, cssProperty, callback)\
-:heavy_check_mark: **getElementSize**(selector, callback)\
-:heavy_check_mark: **getTagName**(selector, callback)\
-:heavy_check_mark: **getText**(optionalUsing, selector, callback)\
-:heavy_check_mark: **getValue**(selector, callback)\
-:heavy_check_mark: **isVisible**(selector, callback)\
-:heavy_check_mark: **elementActive**(callback)
+* **getAttribute**(selector, attribute, callback)\
+* **getCssProperty**(selector, cssProperty, callback)\
+* **getElementSize**(selector, callback)\
+* **getTagName**(selector, callback)\
+* **getText**(optionalUsing, selector, callback)\
+* **getValue**(selector, callback)\
+* **isVisible**(selector, callback)\
+* **elementActive**(callback)
 
 ## Element Location
 
-:heavy_check_mark: **getLocation**(selector, callback)\
-:heavy_check_mark: **getLocationInView**(selector, callback)
+* **getLocation**(selector, callback)\
+* **getLocationInView**(selector, callback)
 
 ## Protocol Element Commands
 
-:heavy_check_mark: **elementIdAttribute**(webElementId, attributeName, callback)\
-:heavy_check_mark: **elementIdCssProperty**(webElementId, cssPropertyName, callback)\
-:heavy_check_mark: **elementIdClear**(webElementId, optionalCallback)\
-:heavy_check_mark: **elementIdClick**(webElementId, optionalCallback)\
-:heavy_check_mark: **elementIdDisplayed**(webElementId, callback)\
-:heavy_check_mark: **elementIdEnabled**(webElementId, callback)\
-:heavy_check_mark: **elementIdLocationInView**(webElementId, optionalCallback)\
-:heavy_check_mark: **elementIdLocation**(webElementId, callback)\
-:heavy_check_mark: **elementIdName**(webElementId, callback)\
-:heavy_check_mark: **elementIdSelected**(webElementId, callback)\
-:heavy_check_mark: **elementIdSize**(webElementId, callback)\
-:heavy_check_mark: **elementIdText**(webElementId, callback)\
-:heavy_check_mark: **elementIdValue**(webElementId, optionalValue, callback)\
-:heavy_check_mark: **submit**(webElementId, optionalCallback)
+* **elementIdAttribute**(webElementId, attributeName, callback)\
+* **elementIdCssProperty**(webElementId, cssPropertyName, callback)\
+* **elementIdClear**(webElementId, optionalCallback)\
+* **elementIdClick**(webElementId, optionalCallback)\
+* **elementIdDisplayed**(webElementId, callback)\
+* **elementIdEnabled**(webElementId, callback)\
+* **elementIdLocationInView**(webElementId, optionalCallback)\
+* **elementIdLocation**(webElementId, callback)\
+* **elementIdName**(webElementId, callback)\
+* **elementIdSelected**(webElementId, callback)\
+* **elementIdSize**(webElementId, callback)\
+* **elementIdText**(webElementId, callback)\
+* **elementIdValue**(webElementId, optionalValue, callback)\
+* **submit**(webElementId, optionalCallback)
 
 ## Document Handling
 
-:heavy_check_mark: **injectScript**(scriptUrl, optionalId, optionalCallback)\
-:x: **execute**(body, args, optionalCallback)\
-:x: **executeAsync**(script, args, optionalCallback)\
-:x: **source**(callback)
+* **injectScript**(scriptUrl, optionalId, optionalCallback)\
+* **execute**(body, args, optionalCallback) - future release\
+* **executeAsync**(script, args, optionalCallback) - future release\
+* **source**(callback) - future release
 
 ## Sessions
 
-:heavy_check_mark: **end**(optionalCallback)\
-:heavy_check_mark: **getLogTypes**(callback)\
-:heavy_check_mark: **getLog**(typeString, callback)\
-:heavy_check_mark: **isLogAvailable**(typeString, callback)\
-:x: **session**(optionalAction, optionalSessionId, optionalCallback)\
-:x: **sessions**(callback)\
-:x: **timeouts**(type, ms, optionalCallback)\
-:x: **timeoutsAsyncScript**(ms, optionalCallback)\
-:x: **timeoutsImplicitWait**(ms, optionalCallback)\
-:x: **status**(callback)\
-:x: **sessionLog**(typeString, callback)\
-:x: **sessionLogTypes**(callback)
+* **end**(optionalCallback)\
+* **getLogTypes**(callback)\
+* **getLog**(typeString, callback)\
+* **isLogAvailable**(typeString, callback)\
+* **session**(optionalAction, optionalSessionId, optionalCallback) - future release\
+* **sessions**(callback) - future release\
+* **timeouts**(type, ms, optionalCallback) - future release\
+* **timeoutsAsyncScript**(ms, optionalCallback) - future release\
+* **timeoutsImplicitWait**(ms, optionalCallback) - future release\
+* **status**(callback) - future release\
+* **sessionLog**(typeString, callback) - future release\
+* **sessionLogTypes**(callback) - future release
 
 ## Navigation
 
-:heavy_check_mark: **init**(optionalURL, optionalCallback)\
-:heavy_check_mark: **getTitle**(callback)\
-:heavy_check_mark: **urlHash**(hash, optionalCallback)\
-:x: **url**(optionalURL, optionalCallback)\
-:x: **back**(optionalCallback)\
-:x: **forward**(optionalCallback)\
-:x: **refresh**(optionalCallback)\
-:x: **title**(callback)
+* **init**(optionalURL, optionalCallback)\
+* **getTitle**(callback)\
+* **urlHash**(hash, optionalCallback)\
+* **url**(optionalURL, optionalCallback) - future release\
+* **back**(optionalCallback) - future release\
+* **forward**(optionalCallback) - future release\
+* **refresh**(optionalCallback) - future release\
+* **title**(callback) - future release
 
 ## Window Related
 
-:heavy_check_mark: **closeWindow**(optionalCallback)\
-:heavy_check_mark: **resizeWindow**(width, height, optionalCallback)\
-:heavy_check_mark: **maximizeWindow**(optionalCallback)\
-:heavy_check_mark: **switchWindow**(handleOrName, optionalCallback)\
-:heavy_check_mark: **setWindowPosition**(offsetX, offsetY, optionalCallback)\
-:x: **window**(method, handleOrName, optionalCallback)\
-:x: **windowHandle**(callback)\
-:x: **windowHandles**(callback)\
-:x: **windowMaximize**(optionalHandleOrName, optionalCallback)\
-:x: **windowPosition**(windowHandle, offsetX, offsetY, callback)\
-:x: **windowSize**(windowHandle, width, height, optionalCallback)\
-:x: **frame**(optionalFrameID, optionalCallback)\
-:x: **frameParent**(optionalCallback)
+* **closeWindow**(optionalCallback)\
+* **resizeWindow**(width, height, optionalCallback)\
+* **maximizeWindow**(optionalCallback)\
+* **switchWindow**(handleOrName, optionalCallback)\
+* **setWindowPosition**(offsetX, offsetY, optionalCallback)\
+* **window**(method, handleOrName, optionalCallback) - future release\
+* **windowHandle**(callback) - future release\
+* **windowHandles**(callback) - future release\
+* **windowMaximize**(optionalHandleOrName, optionalCallback) - future release\
+* **windowPosition**(windowHandle, offsetX, offsetY, callback) - future release\
+* **windowSize**(windowHandle, width, height, optionalCallback) - future release\
+* **frame**(optionalFrameID, optionalCallback) - future release\
+* **frameParent**(optionalCallback) - future release
 
 ## Cookies
 
-:heavy_check_mark: **getCookies**(callback)\
-:heavy_check_mark: **getCookie**(cookieName, callback)\
-:heavy_check_mark: **setCookie**(cookie object, optionalCallback)\
-:heavy_check_mark: **deleteCookie**(cookieName, optionalCallback)\
-:heavy_check_mark: **deleteCookies**(optionalCallback)\
-:x: **cookie**(method, optionalCallbackOrCookie)
+* **getCookies**(callback)\
+* **getCookie**(cookieName, callback)\
+* **setCookie**(cookie object, optionalCallback)\
+* **deleteCookie**(cookieName, optionalCallback)\
+* **deleteCookies**(optionalCallback)\
+* **cookie**(method, optionalCallbackOrCookie) - future release
 
 ## User Actions
 
-:x: **doubleClick**(optionalCallback)\
-:x: **mouseButtonClick**(button, optionalCallback)\
-:x: **mouseButtonDown**(button, optionalCallback)\
-:x: **mouseButtonUp**(button, optionalCallback)\
-:x: **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback)
+* **doubleClick**(optionalCallback) - future release\
+* **mouseButtonClick**(button, optionalCallback) - future release\
+* **mouseButtonDown**(button, optionalCallback) - future release\
+* **mouseButtonUp**(button, optionalCallback) - future release\
+* **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback) - future release
 
 ## User Prompts
 
-:x: **acceptAlert**(optionalCallback)\
-:x: **dismissAlert**(optionalCallback)\
-:x: **getAlertText**(callback)\
-:x: **setAlertText**(value, optionalCallback)
+* **acceptAlert**(optionalCallback) - future release\
+* **dismissAlert**(optionalCallback) - future release\
+* **getAlertText**(callback) - future release\
+* **setAlertText**(value, optionalCallback) - future release
 
 ## Screen Capture
 
-:x: **saveScreenshot**(fileName, optionalCallback)\
-:x: **screenshot**(log_screenshot_data, callback)
+* **saveScreenshot**(fileName, optionalCallback) - future release\
+* **screenshot**(log_screenshot_data, callback) - future release
 
 ## Mobile Related
 
-:x: **getOrientation**(callback)\
-:x: **setOrientation**(orientation, optionalCallback)\
-:x: **contexts**(callback)\
-:x: **currentContext**(callback)\
-:x: **setContext**(context, optionalCallback)
+* **getOrientation**(callback) - future release\
+* **setOrientation**(orientation, optionalCallback) - future release\
+* **contexts**(callback) - future release\
+* **currentContext**(callback) - future release\
+* **setContext**(context, optionalCallback) - future release
 
 ## Utilities / Debugging
 
-:heavy_check_mark: **pause**(ms, optionalCallback)\
-:heavy_check_mark: **useCss**(optionalCallback)\
-:heavy_check_mark: **useXpath**(optionalCallback)\
-:heavy_check_mark: **perform**(callback)
-
-
-<p align="center"><b>Built with :heart:</b></p>
+* **pause**(ms, optionalCallback)\
+* **useCss**(optionalCallback)\
+* **useXpath**(optionalCallback)\
+* **perform**(callback)

@@ -1,6 +1,6 @@
 {
   "name": "vscode-nightwatchjs-snippets",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "NightwatchJS code snippets for Visual Studio Code",
   "displayName": "NightwatchJS snippets",
   "publisher": "Raju",

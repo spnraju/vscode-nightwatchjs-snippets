@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1] - 09-07-2019 (DD-MM-YYYY)
+### Patch
+- fix formatting issues in README.md
+
+## [0.3.0] - 09-07-2019 (DD-MM-YYYY)
+### Update
+- add Protocol Element Commands and fix other commands
+
 ## [0.2.2] - 13-11-2018 (DD-MM-YYYY)
 ### Patch
 - fix the initial position of cursor
