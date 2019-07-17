@@ -1,6 +1,6 @@
 workflow "Deploy in VS Market Place" {
-  on = "release"
   resolves = ["Publish"]
+  on = "push"
 }
 
 action "Npm Install" {
