@@ -11,7 +11,7 @@
 * **Please help with rating/feedback which might be useful in improving this further**
 
 
-**Commands :**
+#Table of Contents
 
 - [Assert/Verify](#Assert/Verify)
 - [Finding-Elements](#Finding-Elements)
