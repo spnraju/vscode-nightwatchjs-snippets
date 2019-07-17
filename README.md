@@ -30,7 +30,7 @@
     - [Mobile Related](#Mobile-Related)
     - [Utilities-Debugging](#Utilities-Debugging)
 - Issues/Feedback/Request for Features
-    - [Feedback|Issues](#Feedback-or-Issues)
+    - [Feedback or Issues](#Feedback-or-Issues)
 
 ## Assert-Verify
 
@@ -202,4 +202,4 @@
 
 Please feel free to open an issue [here](https://github.com/spnraju/vscode-nightwatchjs-snippets/issues) for any issue/feedback or request for enhancement
 
-Thank you for using this extension!
+**Thank you for using this extension!**
