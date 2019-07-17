@@ -282,7 +282,7 @@
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",
-    "description": "pause(timems, optionalCallback)"
+    "description": "pause(timeInMs, optionalCallback)"
   },
   "perform": {
     "prefix": "nwperform",
