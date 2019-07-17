@@ -11,7 +11,25 @@
 * **Please help with rating/feedback which might be useful in improving this further**
 
 
-**List of commands :**
+**Commands :**
+
+- [Assert/Verify](#Assert/Verify)
+- [Finding Elements](#Finding Elements)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+
+
 
 ## Assert/Verify
 
