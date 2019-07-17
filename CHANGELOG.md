@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.4] - 17-07-2019 (DD-MM-YYYY)
+### Patch
+- fix typo in Readme
+
 ## [0.3.3] - 17-07-2019 (DD-MM-YYYY)
 ### Patch
 - fix typo in snippets.json
