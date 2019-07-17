@@ -11,9 +11,28 @@
 * **Please help with rating/feedback which might be useful in improving this further**
 
 
-**List of commands :**
+# Table of Contents
+- Commands
+    - [Assert-Verify](#Assert-Verify)
+    - [Finding Elements](#Finding-Elements)
+    - [Element Interaction](#Element-Interaction)
+    - [Element State](#Element-State)
+    - [Element Location](#Element-Location)
+    - [Protocol Element Commands](#Protocol-Element-Commands)
+    - [Document Handling](#Document-Handling)
+    - [Sessions](#Sessions)
+    - [Navigation](#Navigation)
+    - [Window Related](#Window-Related)
+    - [Cookies](#Cookies)
+    - [User Actions](#User-Actions)
+    - [User Prompts](#User-Prompts)
+    - [Screen Capture](#Screen-Capture)
+    - [Mobile Related](#Mobile-Related)
+    - [Utilities-Debugging](#Utilities-Debugging)
+- Issues/Feedback/Request for Features
+    - [Feedback or Issues](#Feedback-or-Issues)
 
-## Assert/Verify
+## Assert-Verify
 
 * **attributeContains**(selector, attribute, expected, optionalMessage)
 * **attributeEquals**(selector, attribute, expected, optionalMessage)
@@ -172,9 +191,15 @@
 * **currentContext**(callback) - **future release**
 * **setContext**(context, optionalCallback) - **future release**
 
-## Utilities / Debugging
+## Utilities-Debugging
 
 * **pause**(ms, optionalCallback)
 * **useCss**(optionalCallback)
 * **useXpath**(optionalCallback)
 * **perform**(callback)
+
+# Feedback or Issues
+
+Please feel free to open an issue [here](https://github.com/spnraju/vscode-nightwatchjs-snippets/issues) for any issue/feedback or request for enhancement
+
+**Thank you for using this extension!**
