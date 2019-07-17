@@ -8,15 +8,9 @@ action "Npm Install" {
   args = ["install", "--unsafe-perm"]
 }
 
-action "Master" {
-  uses = "actions/bin/filter@master"
-  args = "branch master"
-  needs = ["Npm Install"]
-}
-
 action "Publish" {
   uses = "lannonbr/vsce-action@master"
-  needs = ["Master"]
+  needs = ["Npm Install"]
   args = "publish -p $VS_ACCESS_KEY"
   secrets = ["VS_ACCESS_KEY"]
 }
