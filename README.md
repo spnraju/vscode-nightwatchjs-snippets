@@ -13,28 +13,26 @@
 
 # Table of Contents
 - Commands
-    - [Assert/Verify](#Assert/Verify)
-    - [Finding-Elements](#Finding-Elements)
-    - [Element-Interaction](#Element-Interaction)
-    - [Element-State](#Element-State)
-    - [Element-Location](#Element-Location)
-    - [Protocol-Element-Commands](#Protocol-Element-Commands)
-    - [Document-Handling](#Document-Handling)
+    - [Assert-Verify](#Assert-Verify)
+    - [Finding Elements](#Finding-Elements)
+    - [Element Interaction](#Element-Interaction)
+    - [Element State](#Element-State)
+    - [Element Location](#Element-Location)
+    - [Protocol Element Commands](#Protocol-Element-Commands)
+    - [Document Handling](#Document-Handling)
     - [Sessions](#Sessions)
     - [Navigation](#Navigation)
-    - [Window-Related](#Window-Related)
+    - [Window Related](#Window-Related)
     - [Cookies](#Cookies)
-    - [User-Actions](#User-Actions)
-    - [User-Prompts](#User-Prompts)
-    - [Screen-Capture](#Screen-Capture)
-    - [Mobile-Related](#Mobile-Related)
-    - [Utilities/Debugging](#Utilities/Debugging)
+    - [User Actions](#User-Actions)
+    - [User Prompts](#User-Prompts)
+    - [Screen Capture](#Screen-Capture)
+    - [Mobile Related](#Mobile-Related)
+    - [Utilities-Debugging](#Utilities-Debugging)
 - Issues/Feedback/Request for Features
-    - [Feedback/Issues](#Feedback/Issues)
+    - [Feedback|Issues](#Feedback-or-Issues)
 
-
-
-## Assert/Verify
+## Assert-Verify
 
 * **attributeContains**(selector, attribute, expected, optionalMessage)
 * **attributeEquals**(selector, attribute, expected, optionalMessage)
@@ -53,7 +51,7 @@
 * **valueContains**(selector, expectedText, optionalMessage)
 * **visible**(selector, optionalMessage)
 
-## Finding-Elements
+## Finding Elements
 
 * **waitForElementNotVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)
 * **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)
@@ -65,7 +63,7 @@
 * **elementIdElement**(webElementId, using, value, callback)
 * **elementIdElements**(webElementId, using, value, callback)
 
-## Element-Interaction
+## Element Interaction
 
 * **click**(optionalUsing, selector, optionalCallback)
 * **clearValue**(selector, optionalCallback)
@@ -74,7 +72,7 @@
 * **submitForm**(selector, optionalCallback)
 * **keys**(keysToSend, optionalCallback)
 
-## Element-State
+## Element State
 
 * **getAttribute**(selector, attribute, callback)
 * **getCssProperty**(selector, cssProperty, callback)
@@ -85,12 +83,12 @@
 * **isVisible**(selector, callback)
 * **elementActive**(callback)
 
-## Element-Location
+## Element Location
 
 * **getLocation**(selector, callback)
 * **getLocationInView**(selector, callback)
 
-## Protocol-Element-Commands
+## Protocol Element Commands
 
 * **elementIdAttribute**(webElementId, attributeName, callback)
 * **elementIdCssProperty**(webElementId, cssPropertyName, callback)
@@ -107,7 +105,7 @@
 * **elementIdValue**(webElementId, optionalValue, callback)
 * **submit**(webElementId, optionalCallback)
 
-## Document-Handling
+## Document Handling
 
 * **injectScript**(scriptUrl, optionalId, optionalCallback)
 * **execute**(body, args, optionalCallback) - **future release**
@@ -140,7 +138,7 @@
 * **refresh**(optionalCallback) - **future release**
 * **title**(callback) - **future release**
 
-## Window-Related
+## Window Related
 
 * **closeWindow**(optionalCallback)
 * **resizeWindow**(width, height, optionalCallback)
@@ -165,7 +163,7 @@
 * **deleteCookies**(optionalCallback)
 * **cookie**(method, optionalCallbackOrCookie) - **future release**
 
-## User-Actions
+## User Actions
 
 * **doubleClick**(optionalCallback) - **future release**
 * **mouseButtonClick**(button, optionalCallback) - **future release**
@@ -173,19 +171,19 @@
 * **mouseButtonUp**(button, optionalCallback) - **future release**
 * **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback) - **future release**
 
-## User-Prompts
+## User Prompts
 
 * **acceptAlert**(optionalCallback) - **future release**
 * **dismissAlert**(optionalCallback) - **future release**
 * **getAlertText**(callback) - **future release**
 * **setAlertText**(value, optionalCallback) - **future release**
 
-## Screen-Capture
+## Screen Capture
 
 * **saveScreenshot**(fileName, optionalCallback) - **future release**
 * **screenshot**(log_screenshot_data, callback) - **future release**
 
-## Mobile-Related
+## Mobile Related
 
 * **getOrientation**(callback) - **future release**
 * **setOrientation**(orientation, optionalCallback) - **future release**
@@ -193,14 +191,14 @@
 * **currentContext**(callback) - **future release**
 * **setContext**(context, optionalCallback) - **future release**
 
-## Utilities/Debugging
+## Utilities-Debugging
 
 * **pause**(ms, optionalCallback)
 * **useCss**(optionalCallback)
 * **useXpath**(optionalCallback)
 * **perform**(callback)
 
-# Feedback/Issues
+# Feedback or Issues
 
 Please feel free to open an issue here[https://github.com/spnraju/vscode-nightwatchjs-snippets/issues] for any issue/feedback or request for enhancement
 
