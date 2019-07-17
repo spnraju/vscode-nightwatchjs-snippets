@@ -14,11 +14,11 @@
 **Commands :**
 
 - [Assert/Verify](#Assert/Verify)
-- [Finding Elements](#Finding Elements)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [Finding-Elements](#Finding-Elements)
+- [Element-Interaction](#Element-Interaction)
+- [Element-State](#Element-State)
+- [Element-Location](#Element-Location)
+- [Protocol-Element-Commands](#Protocol-Element-Commands)
 - [](#)
 - [](#)
 - [](#)
@@ -50,7 +50,7 @@
 * **valueContains**(selector, expectedText, optionalMessage)
 * **visible**(selector, optionalMessage)
 
-## Finding Elements
+## Finding-Elements
 
 * **waitForElementNotVisible**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)
 * **waitForElementNotPresent**(optionalUsing, selector, optionalWaitForConditionTimeout, optionalWaitForConditionPollInterval, optionalAbortOnAssertionFailure, optionalCallback, optionalMessage)
@@ -62,7 +62,7 @@
 * **elementIdElement**(webElementId, using, value, callback)
 * **elementIdElements**(webElementId, using, value, callback)
 
-## Element Interaction
+## Element-Interaction
 
 * **click**(optionalUsing, selector, optionalCallback)
 * **clearValue**(selector, optionalCallback)
@@ -71,7 +71,7 @@
 * **submitForm**(selector, optionalCallback)
 * **keys**(keysToSend, optionalCallback)
 
-## Element State
+## Element-State
 
 * **getAttribute**(selector, attribute, callback)
 * **getCssProperty**(selector, cssProperty, callback)
@@ -82,12 +82,12 @@
 * **isVisible**(selector, callback)
 * **elementActive**(callback)
 
-## Element Location
+## Element-Location
 
 * **getLocation**(selector, callback)
 * **getLocationInView**(selector, callback)
 
-## Protocol Element Commands
+## Protocol-Element-Commands
 
 * **elementIdAttribute**(webElementId, attributeName, callback)
 * **elementIdCssProperty**(webElementId, cssPropertyName, callback)
