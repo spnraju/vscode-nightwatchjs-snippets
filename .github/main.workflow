@@ -11,6 +11,6 @@ action "Npm Install" {
 action "Publish" {
   uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
   needs = ["Npm Install"]
-  args = "publish -- -p \"$VS_ACCESS_KEY\""
+  args = "run publish -- -p \"$VS_ACCESS_KEY\""
   secrets = ["VS_ACCESS_KEY"]
 }
