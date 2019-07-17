@@ -12,22 +12,22 @@
 
 
 # Table of Contents
-
-- [Assert/Verify](#Assert/Verify)
-- [Finding-Elements](#Finding-Elements)
-- [Element-Interaction](#Element-Interaction)
-- [Element-State](#Element-State)
-- [Element-Location](#Element-Location)
-- [Protocol-Element-Commands](#Protocol-Element-Commands)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- List of Commands
+    - [Assert/Verify](#Assert/Verify)
+    - [Finding-Elements](#Finding-Elements)
+    - [Element-Interaction](#Element-Interaction)
+    - [Element-State](#Element-State)
+    - [Element-Location](#Element-Location)
+    - [Protocol-Element-Commands](#Protocol-Element-Commands)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
+    - [](#)
 
 
 
