@@ -571,22 +571,22 @@
   },
   "pause": {
     "prefix": "nwpause",
-    "body": "pause(${1:2111ms}, ${2:optionalCallback})",
-    "description": "pause(timeInMs, optionalCallback)"
+    "body": "pause(${1:ms}, ${2:optionalCallback})",
+    "description": "Suspends the test for the given time in milliseconds"
   },
   "useCss": {
     "prefix": "nwuseCss",
     "body": "useCss(${1:optionalCallback})",
-    "description": "useCss(optionalCallback"
+    "description": "Sets the locate strategy for selectors to css selector"
   },
   "useXpath": {
     "prefix": "nwuseXpath",
     "body": "useXpath(${1:optionalCallback})",
-    "description": "useXpath(optionalCallback)"
+    "description": "Sets the locate strategy for selectors to xpath"
   },
   "perform": {
     "prefix": "nwperform",
-    "body": "perform(${1:optionalCallback})",
-    "description": "perform(optionalCallback)"
+    "body": "perform(${1:callback})",
+    "description": "A simple perform command which allows access to the Nightwatch API in a callback"
   }
 }
