@@ -354,6 +354,46 @@
     "body": "sessionLogTypes(${1:callback})",
     "description": "Gets an array of strings for which log types are available"
   },
+  "init": {
+    "prefix": "nwinit",
+    "body": "init(${1:optionalURL}, ${2:optionalCallback})",
+    "description": "Performs a call to .url() with passing the value of launch_url field from the settings file"
+  },
+  "getTitle": {
+    "prefix": "nwgetTitle",
+    "body": "getTitle(${1:callback})",
+    "description": "Returns the title of the current page. Uses title protocol command"
+  },
+  "urlHash": {
+    "prefix": "nwurlHash",
+    "body": "urlHash(${1:hash}, ${2:optionalCallback})",
+    "description": "Convenience command that adds the specified hash"
+  },
+  "url": {
+    "prefix": "nwurl",
+    "body": "url(${1:optionalURL}, ${2:optionalCallback})",
+    "description": "Retrieve the URL of the current page or navigate to a new URL"
+  },
+  "back": {
+    "prefix": "nwback",
+    "body": "back(${1:optionalCallback})",
+    "description": "Navigate backwards in the browser history, if possible"
+  },
+  "forward": {
+    "prefix": "nwforward",
+    "body": "forward(${1:optionalCallback})",
+    "description": "Navigate forwards in the browser history, if possible"
+  },
+  "refresh": {
+    "prefix": "nwrefresh",
+    "body": "refresh(${1:optionalCallback})",
+    "description": "Refresh the current page"
+  },
+  "titleNavigation": {
+    "prefix": "nwtitle",
+    "body": "title(${1:callback})",
+    "description": "Get the current page title"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",
@@ -399,25 +439,10 @@
     "body": "saveScreenshot(${1:fileName}, ${2:optionalCallback})",
     "description": "saveScreenshot(fileName, optionalCallback)"
   },
-  "getTitle": {
-    "prefix": "nwgetTitle",
-    "body": "getTitle(${1:callback})",
-    "description": "getTitle(callback)"
-  },
   "closeWindow": {
     "prefix": "nwcloseWindow",
     "body": "closeWindow(${1:optionalCallback})",
     "description": "closeWindow(optionalCallback)"
-  },
-  "init": {
-    "prefix": "nwinit",
-    "body": "init(${1:URL}, ${2:optionalCallback})",
-    "description": "init(URL, optionalCallback)"
-  },
-  "urlHash": {
-    "prefix": "nwurlHash",
-    "body": "urlHash(${1:hash}, ${2:optionalCallback})",
-    "description": "urlHash(hash, optionalCallback)"
   },
   "getCookies": {
     "prefix": "nwgetCookies",

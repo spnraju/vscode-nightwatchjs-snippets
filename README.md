@@ -132,11 +132,11 @@
 * **init**(optionalURL, optionalCallback)
 * **getTitle**(callback)
 * **urlHash**(hash, optionalCallback)
-* **url**(optionalURL, optionalCallback) - **future release**
-* **back**(optionalCallback) - **future release**
-* **forward**(optionalCallback) - **future release**
-* **refresh**(optionalCallback) - **future release**
-* **title**(callback) - **future release**
+* **url**(optionalURL, optionalCallback)
+* **back**(optionalCallback)
+* **forward**(optionalCallback)
+* **refresh**(optionalCallback)
+* **title**(callback)
 
 ## Window Related
 
