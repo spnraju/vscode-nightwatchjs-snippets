@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.7] - 2019-07-22 (YYYY-MM-DD)
+### Bugs Fixed:
+- fix table of content links in README.md
+
 ## [0.3.6] - 17-07-2019 (DD-MM-YYYY)
 ### Patch
 - improve README.md
