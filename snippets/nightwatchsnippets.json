@@ -514,6 +514,26 @@
     "body": "moveTo(${1:optionalWebElementId}, ${2:xoffset}, ${3:yoffset}, ${4:optionalCallback})",
     "description": "Move the mouse by an offset of the specified Web Element ID or relative to the current mouse cursor"
   },
+  "acceptAlert": {
+    "prefix": "nwacceptAlert",
+    "body": "acceptAlert(${1:optionalCallback})",
+    "description": "Accepts the currently displayed alert dialog"
+  },
+  "dismissAlert": {
+    "prefix": "nwdismissAlert",
+    "body": "dismissAlert(${1:optionalCallback})",
+    "description": "Dismisses the currently displayed alert dialog"
+  },
+  "getAlertText": {
+    "prefix": "nwgetAlertText",
+    "body": "getAlertText(${1:callback})",
+    "description": "Gets the text of the currently displayed JavaScript alert(), confirm(), or prompt() dialog"
+  },
+  "setAlertText": {
+    "prefix": "nwsetAlertText",
+    "body": "setAlertText(${1:value}, ${2:optionalCallback})",
+    "description": "Sends keystrokes to a JavaScript prompt() dialog"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",

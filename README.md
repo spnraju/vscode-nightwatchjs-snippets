@@ -173,10 +173,10 @@
 
 ## User Prompts
 
-* **acceptAlert**(optionalCallback) - **future release**
-* **dismissAlert**(optionalCallback) - **future release**
-* **getAlertText**(callback) - **future release**
-* **setAlertText**(value, optionalCallback) - **future release**
+* **acceptAlert**(optionalCallback)
+* **dismissAlert**(optionalCallback)
+* **getAlertText**(callback)
+* **setAlertText**(value, optionalCallback)
 
 ## Screen Capture
 
