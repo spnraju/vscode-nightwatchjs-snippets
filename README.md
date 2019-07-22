@@ -158,10 +158,10 @@
 
 * **getCookies**(callback)
 * **getCookie**(cookieName, callback)
-* **setCookie**(cookie object, optionalCallback)
+* **setCookie**(cookieObject, optionalCallback)
 * **deleteCookie**(cookieName, optionalCallback)
 * **deleteCookies**(optionalCallback)
-* **cookie**(method, optionalCallbackOrCookie) - **future release**
+* **cookie**(method, optionalCallbackOrCookie)
 
 ## User Actions
 
