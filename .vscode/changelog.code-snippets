@@ -3,7 +3,7 @@
     "prefix": "cldate",
     "scope": "markdown",
     "body": [
-      "## [$1] - 2019-$2-$3 (YYYY-MM-DD)"
+      "## [$1] - $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE (YYYY-MM-DD)"
     ]
   },
   "changelogfeature": {
@@ -24,7 +24,7 @@
     "prefix": "clentry",
     "scope": "markdown",
     "body": [
-      "- $1"
+      "- $CLIPBOARD"
     ]
   }
 }

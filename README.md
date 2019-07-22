@@ -13,24 +13,25 @@
 
 # Table of Contents
 - Commands
-    - [Assert-Verify](#assert-verify)
-    - [Finding Elements](#finding-elements)
-    - [Element Interaction](#element-interaction)
-    - [Element State](#element-state)
-    - [Element Location](#element-location)
-    - [Protocol Element Commands](#protocol-element-commands)
-    - [Document Handling](#document-handling)
-    - [Sessions](#sessions)
-    - [Navigation](#navigation)
-    - [Window Related](#window-related)
-    - [Cookies](#cookies)
-    - [User Actions](#user-actions)
-    - [User Prompts](#user-prompts)
-    - [Screen Capture](#screen-capture)
-    - [Mobile Related](#mobile-related)
-    - [Utilities-Debugging](#utilities-debugging)
+  - [Assert-Verify](#assert-verify)
+  - [Finding Elements](#finding-elements)
+  - [Element Interaction](#element-interaction)
+  - [Element State](#element-state)
+  - [Element Location](#element-location)
+  - [Protocol Element Commands](#protocol-element-commands)
+  - [Document Handling](#document-handling)
+  - [Sessions](#sessions)
+  - [Navigation](#navigation)
+  - [Window Related](#window-related)
+  - [Cookies](#cookies)
+  - [User Actions](#user-actions)
+  - [User Prompts](#user-prompts)
+  - [Screen Capture](#screen-capture)
+  - [Mobile Related](#mobile-related)
+  - [Utilities-Debugging](#utilities-debugging)
+
 - Issues/Feedback/Request for Features
-    - [Feedback or Issues](#feedback-or-issues)
+  - [Feedback or Issues](#feedback-or-issues)
 
 ## Assert-Verify
 
