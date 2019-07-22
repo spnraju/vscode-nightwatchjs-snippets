@@ -13,24 +13,24 @@
 
 # Table of Contents
 - Commands
-    - [Assert-Verify](#Assert-Verify)
-    - [Finding Elements](#Finding-Elements)
-    - [Element Interaction](#Element-Interaction)
-    - [Element State](#Element-State)
-    - [Element Location](#Element-Location)
-    - [Protocol Element Commands](#Protocol-Element-Commands)
-    - [Document Handling](#Document-Handling)
-    - [Sessions](#Sessions)
-    - [Navigation](#Navigation)
-    - [Window Related](#Window-Related)
-    - [Cookies](#Cookies)
-    - [User Actions](#User-Actions)
-    - [User Prompts](#User-Prompts)
-    - [Screen Capture](#Screen-Capture)
-    - [Mobile Related](#Mobile-Related)
-    - [Utilities-Debugging](#Utilities-Debugging)
+    - [Assert-Verify](#assert-verify)
+    - [Finding Elements](#finding-elements)
+    - [Element Interaction](#element-interaction)
+    - [Element State](#element-state)
+    - [Element Location](#element-location)
+    - [Protocol Element Commands](#protocol-element-commands)
+    - [Document Handling](#document-handling)
+    - [Sessions](#sessions)
+    - [Navigation](#navigation)
+    - [Window Related](#window-related)
+    - [Cookies](#cookies)
+    - [User Actions](#user-actions)
+    - [User Prompts](#user-prompts)
+    - [Screen Capture](#screen-capture)
+    - [Mobile Related](#mobile-related)
+    - [Utilities-Debugging](#utilities-debugging)
 - Issues/Feedback/Request for Features
-    - [Feedback or Issues](#Feedback-or-Issues)
+    - [Feedback or Issues](#feedback-or-issues)
 
 ## Assert-Verify
 
@@ -201,5 +201,7 @@
 # Feedback or Issues
 
 Please feel free to open an issue [here](https://github.com/spnraju/vscode-nightwatchjs-snippets/issues) for any issue/feedback or request for enhancement
+
+[Go to Top](#nightwatchjs-code-snippets-for-visual-studio-code)
 
 **Thank you for using this extension!**
