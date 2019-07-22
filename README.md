@@ -180,8 +180,8 @@
 
 ## Screen Capture
 
-* **saveScreenshot**(fileName, optionalCallback) - **future release**
-* **screenshot**(log_screenshot_data, callback) - **future release**
+* **saveScreenshot**(fileName, optionalCallback)
+* **screenshot**(log_screenshot_data, callback)
 
 ## Mobile Related
 

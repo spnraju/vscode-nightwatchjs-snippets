@@ -534,6 +534,16 @@
     "body": "setAlertText(${1:value}, ${2:optionalCallback})",
     "description": "Sends keystrokes to a JavaScript prompt() dialog"
   },
+  "saveScreenshot": {
+    "prefix": "nwsaveScreenshot",
+    "body": "saveScreenshot(${1:fileName}, ${2:optionalCallback})",
+    "description": "Take a screenshot of the current page and saves it as the given filename"
+  },
+  "screenshot": {
+    "prefix": "nwScreenshot",
+    "body": "screenshot(${1:log_screenshot_data}, ${2:callback})",
+    "description": "Take a screenshot of the current page"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",
@@ -553,10 +563,5 @@
     "prefix": "nwuseXpath",
     "body": "useXpath(${1:optionalCallback})",
     "description": "useXpath(optionalCallback)"
-  },
-  "saveScreenshot": {
-    "prefix": "nwsaveScreenshot",
-    "body": "saveScreenshot(${1:fileName}, ${2:optionalCallback})",
-    "description": "saveScreenshot(fileName, optionalCallback)"
   }
 }
