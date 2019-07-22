@@ -489,6 +489,31 @@
     "body": "cookie(${1:method}, ${2:optionalCallbackOrCookie})",
     "description": "Retrieve or delete all cookies visible to the current page or set a cookie"
   },
+  "doubleClick": {
+    "prefix": "nwdoubleClick",
+    "body": "doubleClick(${1:optionalCallback})",
+    "description": "Double-clicks at the current mouse coordinates"
+  },
+  "mouseButtonClick": {
+    "prefix": "nwmouseButtonClick",
+    "body": "mouseButtonClick(${1:button}, ${2:optionalCallback})",
+    "description": "Click at the current mouse coordinates"
+  },
+  "mouseButtonDown": {
+    "prefix": "nwmouseButtonDown",
+    "body": "mouseButtonDown(${1:button}, ${2:optionalCallback})",
+    "description": "Click and hold the left mouse button"
+  },
+  "mouseButtonUp": {
+    "prefix": "nwmouseButtonUp",
+    "body": "mouseButtonUp(${1:button}, ${2:optionalCallback})",
+    "description": "Releases the mouse button previously held"
+  },
+  "moveTo": {
+    "prefix": "nwmoveTo",
+    "body": "moveTo(${1:optionalWebElementId}, ${2:xoffset}, ${3:yoffset}, ${4:optionalCallback})",
+    "description": "Move the mouse by an offset of the specified Web Element ID or relative to the current mouse cursor"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",

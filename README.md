@@ -165,11 +165,11 @@
 
 ## User Actions
 
-* **doubleClick**(optionalCallback) - **future release**
-* **mouseButtonClick**(button, optionalCallback) - **future release**
-* **mouseButtonDown**(button, optionalCallback) - **future release**
-* **mouseButtonUp**(button, optionalCallback) - **future release**
-* **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback) - **future release**
+* **doubleClick**(optionalCallback)
+* **mouseButtonClick**(button, optionalCallback)
+* **mouseButtonDown**(button, optionalCallback)
+* **mouseButtonUp**(button, optionalCallback)
+* **moveTo**(optionalWebElementId, xoffset, yoffset, optionalCallback)
 
 ## User Prompts
 
