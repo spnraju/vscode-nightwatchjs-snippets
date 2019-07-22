@@ -394,6 +394,71 @@
     "body": "title(${1:callback})",
     "description": "Get the current page title"
   },
+  "closeWindow": {
+    "prefix": "nwcloseWindow",
+    "body": "closeWindow(${1:optionalCallback})",
+    "description": "Close the current window"
+  },
+  "resizeWindow": {
+    "prefix": "nwresizeWindow",
+    "body": "resizeWindow(${1:width}, ${2:height}, ${3:optionalCallback})",
+    "description": "Resizes the current window"
+  },
+  "maximizeWindow": {
+    "prefix": "nwmaximizeWindow",
+    "body": "maximizeWindow(${1:optionalCallback})",
+    "description": "Maximizes the current window"
+  },
+  "switchWindow": {
+    "prefix": "nwswitchWindow",
+    "body": "switchWindow(${1:handleOrName}, ${2:optionalCallback})",
+    "description": "Change focus to another window"
+  },
+  "setWindowPosition": {
+    "prefix": "nwsetWindowPosition",
+    "body": "setWindowPosition(${1:offsetX}, ${2:offsetY}, ${3:optionalCallback})",
+    "description": "Sets the current window position"
+  },
+  "window": {
+    "prefix": "nwwindow",
+    "body": "window(${1:method}, ${2:handleOrName}, ${3:optionalCallback})",
+    "description": "Change focus to another window or close the current window"
+  },
+  "windowHandle": {
+    "prefix": "nwwindowHandle",
+    "body": "windowHandle(${1:callback})",
+    "description": "Retrieve the current window handle"
+  },
+  "windowHandles": {
+    "prefix": "nwwindowHandles",
+    "body": "windowHandles(${1:callback})",
+    "description": "Retrieve the list of all window handles available to the session"
+  },
+  "windowMaximize": {
+    "prefix": "nwwindowMaximize",
+    "body": "windowMaximize(${1:optionalHandleOrName}, ${2:optionalCallback})",
+    "description": "Increases the window to the maximum available size without going full-screen"
+  },
+  "windowPosition": {
+    "prefix": "nwwindowPosition",
+    "body": "windowPosition(${1:windowHandle}, ${2:offsetX}, ${3:offsetY}, ${3:callback})",
+    "description": "Change or get the position of the specified window"
+  },
+  "windowSize": {
+    "prefix": "nwwindowSize",
+    "body": "windowSize(${1:windowHandle}, ${2:width}, ${3:height}, ${4:optionalCallback})",
+    "description": "Change or get the size of the specified window"
+  },
+  "frame": {
+    "prefix": "nwframe",
+    "body": "frame(${1:optionalFrameID}, ${2:optionalCallback})",
+    "description": "Change focus to another frame on the page"
+  },
+  "frameParent": {
+    "prefix": "nwframeParent",
+    "body": "frameParent(${1:optionalCallback})",
+    "description": "Change focus to the parent context"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",
@@ -414,35 +479,10 @@
     "body": "useXpath(${1:optionalCallback})",
     "description": "useXpath(optionalCallback)"
   },
-  "switchWindow": {
-    "prefix": "nwswitchWindow",
-    "body": "switchWindow(${1:handleOrName}, ${2:optionalCallback})",
-    "description": "switchWindow(handleOrName, optionalCallback)"
-  },
-  "resizeWindow": {
-    "prefix": "nwresizeWindow",
-    "body": "resizeWindow(${1:width}, ${2:height}, ${3:optionalCallback})",
-    "description": "resizeWindow(width, height, optionalCallback)"
-  },
-  "setWindowPosition": {
-    "prefix": "nwsetWindowPosition",
-    "body": "setWindowPosition(${1:offsetX}, ${2:offsetY}, ${3:optionalCallback})",
-    "description": "setWindowPosition(offsetX, offsetY, optionalCallback)"
-  },
-  "maximizeWindow": {
-    "prefix": "nwmaximizeWindow",
-    "body": "maximizeWindow(${1:optionalCallback})",
-    "description": "maximizeWindow(optionalCallback)"
-  },
   "saveScreenshot": {
     "prefix": "nwsaveScreenshot",
     "body": "saveScreenshot(${1:fileName}, ${2:optionalCallback})",
     "description": "saveScreenshot(fileName, optionalCallback)"
-  },
-  "closeWindow": {
-    "prefix": "nwcloseWindow",
-    "body": "closeWindow(${1:optionalCallback})",
-    "description": "closeWindow(optionalCallback)"
   },
   "getCookies": {
     "prefix": "nwgetCookies",

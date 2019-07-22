@@ -145,14 +145,14 @@
 * **maximizeWindow**(optionalCallback)
 * **switchWindow**(handleOrName, optionalCallback)
 * **setWindowPosition**(offsetX, offsetY, optionalCallback)
-* **window**(method, handleOrName, optionalCallback) - **future release**
-* **windowHandle**(callback) - **future release**
-* **windowHandles**(callback) - **future release**
-* **windowMaximize**(optionalHandleOrName, optionalCallback) - **future release**
-* **windowPosition**(windowHandle, offsetX, offsetY, callback) - **future release**
-* **windowSize**(windowHandle, width, height, optionalCallback) - **future release**
-* **frame**(optionalFrameID, optionalCallback) - **future release**
-* **frameParent**(optionalCallback) - **future release**
+* **window**(method, handleOrName, optionalCallback)
+* **windowHandle**(callback)
+* **windowHandles**(callback)
+* **windowMaximize**(optionalHandleOrName, optionalCallback)
+* **windowPosition**(windowHandle, offsetX, offsetY, callback)
+* **windowSize**(windowHandle, width, height, optionalCallback)
+* **frame**(optionalFrameID, optionalCallback)
+* **frameParent**(optionalCallback)
 
 ## Cookies
 
