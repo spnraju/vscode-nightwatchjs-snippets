@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0] - 2019-07-22 (YYYY-MM-DD)
+### Feature(s) Added:
+- document handling commands
+- remaining sessions commands
+- remaining navigation commands
+- remaining window commands
+- remaining cookie commands
+- user actions commands
+- user prompts commands
+- screen capture commands
+- mobile related commands
+
 ## [0.3.7] - 2019-07-22 (YYYY-MM-DD)
 ### Bugs Fixed:
 - fix table of content links in README.md
