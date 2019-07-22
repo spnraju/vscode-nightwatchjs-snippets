@@ -118,14 +118,14 @@
 * **getLogTypes**(callback)
 * **getLog**(typeString, callback)
 * **isLogAvailable**(typeString, callback)
-* **session**(optionalAction, optionalSessionId, optionalCallback) - **future release**
-* **sessions**(callback) - **future release**
-* **timeouts**(type, ms, optionalCallback) - **future release**
-* **timeoutsAsyncScript**(ms, optionalCallback) - **future release**
-* **timeoutsImplicitWait**(ms, optionalCallback) - **future release**
-* **status**(callback) - **future release**
-* **sessionLog**(typeString, callback) - **future release**
-* **sessionLogTypes**(callback) - **future release**
+* **session**(optionalAction, optionalSessionId, optionalCallback)
+* **sessions**(callback)
+* **timeouts**(type, ms, optionalCallback)
+* **timeoutsAsyncScript**(ms, optionalCallback)
+* **timeoutsImplicitWait**(ms, optionalCallback)
+* **status**(callback)
+* **sessionLog**(typeString, callback)
+* **sessionLogTypes**(callback)
 
 ## Navigation
 

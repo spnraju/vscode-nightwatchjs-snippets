@@ -297,7 +297,62 @@
   "end": {
     "prefix": "nwend",
     "body": "end(${1:optionalCallback})",
-    "description": "end(optionalCallback)"
+    "description": "Ends the session"
+  },
+  "getLogTypes": {
+    "prefix": "nwgetLogTypes",
+    "body": "getLogTypes(${1:callback})",
+    "description": "Gets the available log types"
+  },
+  "getLog": {
+    "prefix": "nwgetLog",
+    "body": "getLog(${1:typeString}, ${2:callback})",
+    "description": "Gets a log from Selenium"
+  },
+  "isLogAvailable": {
+    "prefix": "nwisLogAvailable",
+    "body": "isLogAvailable(${1:typeString}, ${2:callback})",
+    "description": "Utility command to test if the log type is available"
+  },
+  "session": {
+    "prefix": "nwsession",
+    "body": "session(${1:optionalAction}, ${2:optionalSessionId}, ${3:optionalCallback})",
+    "description": "Get info about, delete or create a new session. Defaults to the current session"
+  },
+  "sessions": {
+    "prefix": "nwsessions",
+    "body": "sessions(${1:callback})",
+    "description": "Returns a list of the currently active sessions"
+  },
+  "timeouts": {
+    "prefix": "nwtimeouts",
+    "body": "timeouts(${1:type}, ${2:ms}, ${3:optionalCallback})",
+    "description": "Configure the amount of time that a particular type of operation can execute for before they are aborted"
+  },
+  "timeoutsAsyncScript": {
+    "prefix": "nwtimeoutsAsyncScript",
+    "body": "timeoutsAsyncScript(${1:ms}, ${2:optionalCallback})",
+    "description": "Set the amount of time, in milliseconds, that asynchronous scripts executed by .executeAsync are permitted to run"
+  },
+  "timeoutsImplicitWait": {
+    "prefix": "nwtimeoutsImplicitWait",
+    "body": "timeoutsImplicitWait(${1:ms}, ${2:optionalCallback})",
+    "description": "Set the amount of time the driver should wait when searching for elements"
+  },
+  "status": {
+    "prefix": "nwstatus",
+    "body": "status(${1:callback})",
+    "description": "Query the server's current status"
+  },
+  "sessionLog": {
+    "prefix": "nwsessionLog",
+    "body": "sessionLog(${1:typeString}, ${2:callback})",
+    "description": "Gets the text of the log type specified"
+  },
+  "sessionLogTypes": {
+    "prefix": "nwsessionLogTypes",
+    "body": "sessionLogTypes(${1:callback})",
+    "description": "Gets an array of strings for which log types are available"
   },
   "pause": {
     "prefix": "nwpause",
@@ -388,20 +443,5 @@
     "prefix": "nwdeleteCookies",
     "body": "deleteCookies(${1:optionalCallback})",
     "description": "deleteCookies(optionalCallback)"
-  },
-  "getLogTypes": {
-    "prefix": "nwgetLogTypes",
-    "body": "getLogTypes(${1:callback})",
-    "description": "getLogTypes(callback)"
-  },
-  "getLog": {
-    "prefix": "nwgetLog",
-    "body": "getLog(${1:typeString}, ${2:callback})",
-    "description": "getLog(typeString, callback)"
-  },
-  "isLogAvailable": {
-    "prefix": "nwisLogAvailable",
-    "body": "isLogAvailable(${1:typeString}, ${2:callback})",
-    "description": "isLogAvailable(typeString, callback)"
   }
 }
