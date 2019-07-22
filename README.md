@@ -108,9 +108,9 @@
 ## Document Handling
 
 * **injectScript**(scriptUrl, optionalId, optionalCallback)
-* **execute**(body, args, optionalCallback) - **future release**
-* **executeAsync**(script, args, optionalCallback) - **future release**
-* **source**(callback) - **future release**
+* **execute**(body, args, optionalCallback)
+* **executeAsync**(script, args, optionalCallback)
+* **source**(callback)
 
 ## Sessions
 

@@ -274,6 +274,26 @@
     "body": "submit(${1:webElementId}, ${2:optionalCallback})",
     "description": "Submit a FORM element"
   },
+  "injectScript": {
+    "prefix": "nwinjectScript",
+    "body": "injectScript(${1:scriptUrl}, ${2:optionalId}, ${3:optionalCallback})",
+    "description": "command to load an external script into the page specified by url"
+  },
+  "execute": {
+    "prefix": "nwexecute",
+    "body": "execute(${1:body}, ${2:args}, ${3:optionalCallback})",
+    "description": "Inject a snippet of synchronous JavaScript into the page for execution in the context of the currently selected frame"
+  },
+  "executeAsync": {
+    "prefix": "nwexecuteAsync",
+    "body": "executeAsync(${1:script}, ${2:args}, ${3:optionalCallback})",
+    "description": "Inject a snippet of asynchronous JavaScript into the page for execution in the context of the currently selected frame"
+  },
+  "source": {
+    "prefix": "nwsource",
+    "body": "source(${1:callback})",
+    "description": "Returns a string serialisation of the DOM of the current page"
+  },
   "end": {
     "prefix": "nwend",
     "body": "end(${1:optionalCallback})",
@@ -368,11 +388,6 @@
     "prefix": "nwdeleteCookies",
     "body": "deleteCookies(${1:optionalCallback})",
     "description": "deleteCookies(optionalCallback)"
-  },
-  "injectScript": {
-    "prefix": "nwinjectScript",
-    "body": "injectScript(${1:scriptUrl}, ${2:id}, ${3:optionalCallback})",
-    "description": "injectScript(scriptUrl, id, optionalCallback)"
   },
   "getLogTypes": {
     "prefix": "nwgetLogTypes",
