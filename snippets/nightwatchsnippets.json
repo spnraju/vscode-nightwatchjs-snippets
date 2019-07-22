@@ -544,15 +544,35 @@
     "body": "screenshot(${1:log_screenshot_data}, ${2:callback})",
     "description": "Take a screenshot of the current page"
   },
+  "getOrientation": {
+    "prefix": "nwgetOrientation",
+    "body": "getOrientation(${1:callback})",
+    "description": "Get the current browser orientation"
+  },
+  "setOrientation": {
+    "prefix": "nwsetOrientation",
+    "body": "setOrientation(${1:orientation}, ${2:optionalCallback})",
+    "description": "Sets the browser orientation"
+  },
+  "contexts": {
+    "prefix": "nwcontexts",
+    "body": "contexts(${1:callback})",
+    "description": "Get a list of the available contexts"
+  },
+  "currentContext": {
+    "prefix": "nwcurrentContext",
+    "body": "currentContext(${1:callback})",
+    "description": "Get current context"
+  },
+  "setContext": {
+    "prefix": "nwsetContext",
+    "body": "setContext(${1:context}, ${2:optionalCallback})",
+    "description": "Sets the context"
+  },
   "pause": {
     "prefix": "nwpause",
     "body": "pause(${1:2111ms}, ${2:optionalCallback})",
     "description": "pause(timeInMs, optionalCallback)"
-  },
-  "perform": {
-    "prefix": "nwperform",
-    "body": "perform(${1:optionalCallback})",
-    "description": "perform(optionalCallback)"
   },
   "useCss": {
     "prefix": "nwuseCss",
@@ -563,5 +583,10 @@
     "prefix": "nwuseXpath",
     "body": "useXpath(${1:optionalCallback})",
     "description": "useXpath(optionalCallback)"
+  },
+  "perform": {
+    "prefix": "nwperform",
+    "body": "perform(${1:optionalCallback})",
+    "description": "perform(optionalCallback)"
   }
 }

@@ -185,11 +185,11 @@
 
 ## Mobile Related
 
-* **getOrientation**(callback) - **future release**
-* **setOrientation**(orientation, optionalCallback) - **future release**
-* **contexts**(callback) - **future release**
-* **currentContext**(callback) - **future release**
-* **setContext**(context, optionalCallback) - **future release**
+* **getOrientation**(callback)
+* **setOrientation**(orientation, optionalCallback)
+* **contexts**(callback)
+* **currentContext**(callback)
+* **setContext**(context, optionalCallback)
 
 ## Utilities-Debugging
 
