@@ -22,7 +22,8 @@
     "url": "git+https://github.com/spnraju/vscode-nightwatchjs-snippets.git"
   },
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "update": "npx npm-check-updates --upgrade && npm install && npm audit fix"
   },
   "categories": [
     "Snippets"
@@ -42,6 +43,6 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.53.0"
+    "vsce": "^1.85.0"
   }
 }
